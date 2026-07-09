@@ -21,7 +21,7 @@
       "versionDate": "2026-07-09T12:00:00Z",
       "versionDescription": "Première version iOS de Maya IPTV.\n\nGuide d'installation : https://mayaiptv.com/ios/",
       "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.40.2/MayaIPTV-iOS.ipa",
-      "size": 21125844,
+      "size": 21789585,
       "minOSVersion": "15.0",
       "versions": [
         {
@@ -29,7 +29,7 @@
           "date": "2026-07-09T12:00:00Z",
           "localizedDescription": "Première version iOS de Maya IPTV.\n\nGuide d'installation : https://mayaiptv.com/ios/",
           "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.40.2/MayaIPTV-iOS.ipa",
-          "size": 21125844,
+          "size": 21789585,
           "minOSVersion": "15.0"
         }
       ],
