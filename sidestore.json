@@ -1,0 +1,39 @@
+{
+  "name": "Maya IPTV",
+  "identifier": "com.mayaiptv.source",
+  "subtitle": "Le lecteur IPTV premium, gratuit.",
+  "description": "Source officielle Maya IPTV pour SideStore/AltStore. Ajoute cette source une seule fois : les mises à jour de l'application apparaîtront ensuite automatiquement, comme sur un vrai store.",
+  "iconURL": "https://raw.githubusercontent.com/yannsar/mayaiptv-downloads/main/sidestore/icon.png",
+  "website": "https://mayaiptv.com/",
+  "tintColor": "#7C6FF0",
+  "apps": [
+    {
+      "name": "MayaIPTV",
+      "bundleIdentifier": "com.mayaiptv.client",
+      "developerName": "Maya IPTV",
+      "subtitle": "TV en direct, films, séries et sport.",
+      "localizedDescription": "Maya IPTV lit ton abonnement Xtream, Stalker ou M3U : chaînes en direct avec guide des programmes (EPG), films et séries présentés comme une vraie vidéothèque, scores de foot, basket et tennis en temps réel, Chromecast et sous-titres automatiques.\n\nMaya IPTV est un lecteur : il ne fournit aucun contenu ni abonnement. Tu as besoin de ton propre abonnement IPTV pour te connecter.",
+      "iconURL": "https://raw.githubusercontent.com/yannsar/mayaiptv-downloads/main/sidestore/icon.png",
+      "tintColor": "#7C6FF0",
+      "category": "entertainment",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "1.40.2",
+          "date": "2026-07-09T12:00:00Z",
+          "localizedDescription": "Première version iOS de Maya IPTV.\n\nGuide d'installation : https://mayaiptv.com/ios/",
+          "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.40.2/MayaIPTV-iOS.ipa",
+          "size": 21191066,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Maya IPTV recherche les appareils Chromecast sur ton réseau local pour diffuser tes contenus."
+        }
+      }
+    }
+  ],
+  "news": []
+}
