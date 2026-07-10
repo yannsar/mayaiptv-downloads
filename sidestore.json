@@ -17,13 +17,21 @@
       "tintColor": "#7C6FF0",
       "category": "entertainment",
       "screenshots": [],
-      "version": "1.41.1",
-      "versionDate": "2026-07-10T14:32:18Z",
-      "versionDescription": "## 📋 Changements (v1.41.0 → v1.41.1)\n\n### 🐛 Corrections\n\n- **sports** — match reminder notifications actually fire on Android\n\n---\n**Téléchargements** : `maya-mobile-arm64.apk` (téléphone/tablette), `maya-tv-armv7.apk` (Firestick/box TV), `MayaIPTV-Windows.zip` (PC x64), `MayaIPTV-iOS.ipa` (iPhone — [guide d'installation](https://mayaiptv.com/ios/)).",
-      "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.41.1/MayaIPTV-iOS.ipa",
-      "size": 21825821,
+      "version": "1.41.2",
+      "versionDate": "2026-07-10T15:20:45Z",
+      "versionDescription": "## 📋 Changements (v1.41.1 → v1.41.2)\n\n### 🐛 Corrections\n\n- **sports** — keep notification icon out of release resource shrinking\n\n---\n**Téléchargements** : `maya-mobile-arm64.apk` (téléphone/tablette), `maya-tv-armv7.apk` (Firestick/box TV), `MayaIPTV-Windows.zip` (PC x64), `MayaIPTV-iOS.ipa` (iPhone — [guide d'installation](https://mayaiptv.com/ios/)).",
+      "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.41.2/MayaIPTV-iOS.ipa",
+      "size": 21826200,
       "minOSVersion": "15.0",
       "versions": [
+        {
+          "version": "1.41.2",
+          "date": "2026-07-10T15:20:45Z",
+          "localizedDescription": "## 📋 Changements (v1.41.1 → v1.41.2)\n\n### 🐛 Corrections\n\n- **sports** — keep notification icon out of release resource shrinking\n\n---\n**Téléchargements** : `maya-mobile-arm64.apk` (téléphone/tablette), `maya-tv-armv7.apk` (Firestick/box TV), `MayaIPTV-Windows.zip` (PC x64), `MayaIPTV-iOS.ipa` (iPhone — [guide d'installation](https://mayaiptv.com/ios/)).",
+          "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.41.2/MayaIPTV-iOS.ipa",
+          "size": 21826200,
+          "minOSVersion": "15.0"
+        },
         {
           "version": "1.41.1",
           "date": "2026-07-10T14:32:18Z",
