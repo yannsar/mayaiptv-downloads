@@ -17,13 +17,21 @@
       "tintColor": "#7C6FF0",
       "category": "entertainment",
       "screenshots": [],
-      "version": "1.44.2",
-      "versionDate": "2026-07-13T11:21:10Z",
-      "versionDescription": "## 📋 Changements (v1.44.1 → v1.44.2)\n\n### 🐛 Corrections\n\n- **tv** — D-pad regression — dead player overlay, search-screen focus traps\n\n---\n**Téléchargements** : `maya-mobile-arm64.apk` (téléphone/tablette), `maya-tv-armv7.apk` (Firestick/box TV), `MayaIPTV-Windows.zip` (PC x64), `MayaIPTV-iOS.ipa` (iPhone — [guide d'installation](https://mayaiptv.com/ios/)).",
-      "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.44.2/MayaIPTV-iOS.ipa",
-      "size": 22075165,
+      "version": "1.45.0",
+      "versionDate": "2026-07-13T13:27:34Z",
+      "versionDescription": "## 📋 Changements (v1.44.2 → v1.45.0)\n\n### ✨ Nouveautés\n\n- **search** — la validation clavier route les phrases vers la recherche IA\n\n### 🐛 Corrections\n\n- **search** — la dictée vocale lance la recherche même sans finalResult\n- **tv** — l'œil « voir mot de passe » ne répondait pas à la télécommande\n\n---\n**Téléchargements** : `maya-mobile-arm64.apk` (téléphone/tablette), `maya-tv-armv7.apk` (Firestick/box TV), `MayaIPTV-Windows.zip` (PC x64), `MayaIPTV-iOS.ipa` (iPhone — [guide d'installation](https://mayaiptv.com/ios/)).",
+      "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.45.0/MayaIPTV-iOS.ipa",
+      "size": 22079261,
       "minOSVersion": "15.0",
       "versions": [
+        {
+          "version": "1.45.0",
+          "date": "2026-07-13T13:27:34Z",
+          "localizedDescription": "## 📋 Changements (v1.44.2 → v1.45.0)\n\n### ✨ Nouveautés\n\n- **search** — la validation clavier route les phrases vers la recherche IA\n\n### 🐛 Corrections\n\n- **search** — la dictée vocale lance la recherche même sans finalResult\n- **tv** — l'œil « voir mot de passe » ne répondait pas à la télécommande\n\n---\n**Téléchargements** : `maya-mobile-arm64.apk` (téléphone/tablette), `maya-tv-armv7.apk` (Firestick/box TV), `MayaIPTV-Windows.zip` (PC x64), `MayaIPTV-iOS.ipa` (iPhone — [guide d'installation](https://mayaiptv.com/ios/)).",
+          "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.45.0/MayaIPTV-iOS.ipa",
+          "size": 22079261,
+          "minOSVersion": "15.0"
+        },
         {
           "version": "1.44.2",
           "date": "2026-07-13T11:21:10Z",
@@ -94,14 +102,6 @@
           "localizedDescription": "## 📋 Changements (v1.40.2 → v1.41.0)\n\n### ✨ Nouveautés\n\n- **sports** — MMA tab (UFC/Bellator/PFL) via API-Sports MMA\n- **landing** — replace iOS guide with SideStore method (auto-updates)\n- **landing** — iOS install guide pages + iPhone download card (fr/en/ua/ar)\n\n### 🐛 Corrections\n\n- **sports** — reminder bell no longer reports failures as \"removed\"\n- **badges** — accept list-shaped info.video/audio from XUI panels\n- **sports** — lineup names no longer hidden by jerseys + pitch zoom\n- **cast** — route Xtream streams through the local proxy (CORS + UA)\n- **ci-ios** — ldid fake-sign every Mach-O instead of stripping signatures\n- **ci-ios** — keep legacy top-level fields in sidestore.json updated\n- **ci-ios** — strip ad-hoc signature before packaging (SideStore/ldid)\n\n---\n**Téléchargements** : `maya-mobile-arm64.apk` (téléphone/tablette), `maya-tv-armv7.apk` (Firestick/box TV), `MayaIPTV-Windows.zip` (PC x64), `MayaIPTV-iOS.ipa` (iPhone — [guide d'installation](https://mayaiptv.com/ios/)).",
           "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.41.0/MayaIPTV-iOS.ipa",
           "size": 21823294,
-          "minOSVersion": "15.0"
-        },
-        {
-          "version": "1.40.2",
-          "date": "2026-07-09T12:00:00Z",
-          "localizedDescription": "Première version iOS de Maya IPTV.\n\nGuide d'installation : https://mayaiptv.com/ios/",
-          "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.40.2/MayaIPTV-iOS.ipa",
-          "size": 21789585,
           "minOSVersion": "15.0"
         }
       ],
