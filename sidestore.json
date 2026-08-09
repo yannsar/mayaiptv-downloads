@@ -17,13 +17,21 @@
       "tintColor": "#7C6FF0",
       "category": "entertainment",
       "screenshots": [],
-      "version": "1.45.1",
-      "versionDate": "2026-07-19T16:00:28Z",
-      "versionDescription": "## 📋 Changements (v1.45.0 → v1.45.1)\n\n### 🐛 Corrections\n\n- **diag** — les connexions en IP litterale etaient marquees Unreachable a tort\n- **live** — le live Xtream passe en .ts direct, sans pre-validation HTTP\n\n---\n**Téléchargements** : `maya-mobile-arm64.apk` (téléphone/tablette), `maya-tv-armv7.apk` (Firestick/box TV), `MayaIPTV-Windows.zip` (PC x64), `MayaIPTV-iOS.ipa` (iPhone — [guide d'installation](https://mayaiptv.com/ios/)).\n",
-      "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.45.1/MayaIPTV-iOS.ipa",
-      "size": 22080456,
+      "version": "1.46.0",
+      "versionDate": "2026-08-09T16:02:09Z",
+      "versionDescription": "## 📋 Changements (v1.45.1 → v1.46.0)\n\n### ✨ Nouveautés\n\n- **i18n** — ajout de 4 langues — allemand, portugais, espagnol, italien\n- **admin** — interface responsive sur mobile\n\n### 🐛 Corrections\n\n- **landing** — nouveau lien d'invitation Discord (l'ancien etait expire)\n\n---\n**Téléchargements** : `maya-mobile-arm64.apk` (téléphone/tablette), `maya-tv-armv7.apk` (Firestick/box TV), `MayaIPTV-Windows.zip` (PC x64), `MayaIPTV-iOS.ipa` (iPhone — [guide d'installation](https://mayaiptv.com/ios/)).",
+      "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.46.0/MayaIPTV-iOS.ipa",
+      "size": 22121774,
       "minOSVersion": "15.0",
       "versions": [
+        {
+          "version": "1.46.0",
+          "date": "2026-08-09T16:02:09Z",
+          "localizedDescription": "## 📋 Changements (v1.45.1 → v1.46.0)\n\n### ✨ Nouveautés\n\n- **i18n** — ajout de 4 langues — allemand, portugais, espagnol, italien\n- **admin** — interface responsive sur mobile\n\n### 🐛 Corrections\n\n- **landing** — nouveau lien d'invitation Discord (l'ancien etait expire)\n\n---\n**Téléchargements** : `maya-mobile-arm64.apk` (téléphone/tablette), `maya-tv-armv7.apk` (Firestick/box TV), `MayaIPTV-Windows.zip` (PC x64), `MayaIPTV-iOS.ipa` (iPhone — [guide d'installation](https://mayaiptv.com/ios/)).",
+          "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.46.0/MayaIPTV-iOS.ipa",
+          "size": 22121774,
+          "minOSVersion": "15.0"
+        },
         {
           "version": "1.45.1",
           "date": "2026-07-19T16:00:28Z",
@@ -94,14 +102,6 @@
           "localizedDescription": "## 📋 Changements (v1.41.1 → v1.41.2)\n\n### 🐛 Corrections\n\n- **sports** — keep notification icon out of release resource shrinking\n\n---\n**Téléchargements** : `maya-mobile-arm64.apk` (téléphone/tablette), `maya-tv-armv7.apk` (Firestick/box TV), `MayaIPTV-Windows.zip` (PC x64), `MayaIPTV-iOS.ipa` (iPhone — [guide d'installation](https://mayaiptv.com/ios/)).",
           "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.41.2/MayaIPTV-iOS.ipa",
           "size": 21826200,
-          "minOSVersion": "15.0"
-        },
-        {
-          "version": "1.41.1",
-          "date": "2026-07-10T14:32:18Z",
-          "localizedDescription": "## 📋 Changements (v1.41.0 → v1.41.1)\n\n### 🐛 Corrections\n\n- **sports** — match reminder notifications actually fire on Android\n\n---\n**Téléchargements** : `maya-mobile-arm64.apk` (téléphone/tablette), `maya-tv-armv7.apk` (Firestick/box TV), `MayaIPTV-Windows.zip` (PC x64), `MayaIPTV-iOS.ipa` (iPhone — [guide d'installation](https://mayaiptv.com/ios/)).",
-          "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.41.1/MayaIPTV-iOS.ipa",
-          "size": 21825821,
           "minOSVersion": "15.0"
         }
       ],
