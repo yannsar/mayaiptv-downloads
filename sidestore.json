@@ -17,13 +17,21 @@
       "tintColor": "#7C6FF0",
       "category": "entertainment",
       "screenshots": [],
-      "version": "1.47.0",
-      "versionDate": "2026-08-09T20:20:40Z",
-      "versionDescription": "## 📋 Changements (v1.46.0 → v1.47.0)\n\n### ✨ Nouveautés\n\n- **landing** — guides SEO declines en de/es/it/pt (16 pages)\n- **landing** — declinaison anglaise des 4 guides SEO\n- **landing** — 4 pages guides SEO francaises hors-marque\n- **settings** — lien Rejoindre le Discord dans les parametres\n- **analytics** — Firebase Analytics avec ecrans + evenements metier\n- **account** — suppression de compte par l'utilisateur (exigence Google Play)\n- **landing** — pages privacy + delete-account en 8 langues\n\n### 🐛 Corrections\n\n- **update** — desactiver l'auto-update APK quand l'app vient d'un store\n- **landing** — fallback copie presse-papier sur le bouton mail de contact\n- **landing** — mail de contact -> contact@mayaiptv.com\n\n---\n**Téléchargements** : `maya-mobile-arm64.apk` (téléphone/tablette), `maya-tv-armv7.apk` (Firestick/box TV), `MayaIPTV-Windows.zip` (PC x64), `MayaIPTV-iOS.ipa` (iPhone — [guide d'installation](https://mayaiptv.com/ios/)).",
-      "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.47.0/MayaIPTV-iOS.ipa",
-      "size": 23242754,
+      "version": "1.47.1",
+      "versionDate": "2026-08-11T20:34:56Z",
+      "versionDescription": "## 📋 Changements (v1.47.0 → v1.47.1)\n\n### 🐛 Corrections\n\n- **windows** — la maj ouvre la page de telechargement au lieu d'un APK\n- **windows** — lecteur externe fonctionnel (VLC + executable personnalise)\n\n---\n**Téléchargements** : `maya-mobile-arm64.apk` (téléphone/tablette), `maya-tv-armv7.apk` (Firestick/box TV), `MayaIPTV-Windows.zip` (PC x64), `MayaIPTV-iOS.ipa` (iPhone — [guide d'installation](https://mayaiptv.com/ios/)).",
+      "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.47.1/MayaIPTV-iOS.ipa",
+      "size": 23251529,
       "minOSVersion": "15.0",
       "versions": [
+        {
+          "version": "1.47.1",
+          "date": "2026-08-11T20:34:56Z",
+          "localizedDescription": "## 📋 Changements (v1.47.0 → v1.47.1)\n\n### 🐛 Corrections\n\n- **windows** — la maj ouvre la page de telechargement au lieu d'un APK\n- **windows** — lecteur externe fonctionnel (VLC + executable personnalise)\n\n---\n**Téléchargements** : `maya-mobile-arm64.apk` (téléphone/tablette), `maya-tv-armv7.apk` (Firestick/box TV), `MayaIPTV-Windows.zip` (PC x64), `MayaIPTV-iOS.ipa` (iPhone — [guide d'installation](https://mayaiptv.com/ios/)).",
+          "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.47.1/MayaIPTV-iOS.ipa",
+          "size": 23251529,
+          "minOSVersion": "15.0"
+        },
         {
           "version": "1.47.0",
           "date": "2026-08-09T20:20:40Z",
@@ -94,14 +102,6 @@
           "localizedDescription": "## 📋 Changements (v1.41.3 → v1.42.0)\n\n### ✨ Nouveautés\n\n- **search** — direct-title queries + listening view + website highlight\n- **search** — provider-agnostic LLM parsing (OpenAI-compatible endpoints)\n- **search** — natural-language smart search + voice input\n\n---\n**Téléchargements** : `maya-mobile-arm64.apk` (téléphone/tablette), `maya-tv-armv7.apk` (Firestick/box TV), `MayaIPTV-Windows.zip` (PC x64), `MayaIPTV-iOS.ipa` (iPhone — [guide d'installation](https://mayaiptv.com/ios/)).",
           "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.42.0/MayaIPTV-iOS.ipa",
           "size": 21960190,
-          "minOSVersion": "15.0"
-        },
-        {
-          "version": "1.41.3",
-          "date": "2026-07-10T17:06:29Z",
-          "localizedDescription": "## 📋 Changements (v1.41.2 → v1.41.3)\n\n### 🐛 Corrections\n\n- **tv** — make player overlay menus reachable by D-pad\n- **sports** — keep GSON generic signatures so reminders schedule in release\n\n---\n**Téléchargements** : `maya-mobile-arm64.apk` (téléphone/tablette), `maya-tv-armv7.apk` (Firestick/box TV), `MayaIPTV-Windows.zip` (PC x64), `MayaIPTV-iOS.ipa` (iPhone — [guide d'installation](https://mayaiptv.com/ios/)).",
-          "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.41.3/MayaIPTV-iOS.ipa",
-          "size": 21816097,
           "minOSVersion": "15.0"
         }
       ],
