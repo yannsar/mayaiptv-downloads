@@ -17,13 +17,21 @@
       "tintColor": "#7C6FF0",
       "category": "entertainment",
       "screenshots": [],
-      "version": "1.47.2",
-      "versionDate": "2026-08-12T06:26:54Z",
-      "versionDescription": "## 📋 Changements (v1.47.1 → v1.47.2)\n\n### 🐛 Corrections\n\n- **android** — retire la lib pub AdID pour passer la revue Amazon Appstore\n\n---\n**Téléchargements** : `maya-mobile-arm64.apk` (téléphone/tablette), `maya-tv-armv7.apk` (Firestick/box TV), `MayaIPTV-Windows.zip` (PC x64), `MayaIPTV-iOS.ipa` (iPhone — [guide d'installation](https://mayaiptv.com/ios/)).",
-      "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.47.2/MayaIPTV-iOS.ipa",
-      "size": 23251527,
+      "version": "1.48.0",
+      "versionDate": "2026-08-12T16:16:14Z",
+      "versionDescription": "## 📋 Changements (v1.47.2 → v1.48.0)\n\n### ✨ Nouveautés\n\n- **connections** — badge fuseau horaire du serveur a cote du badge de statut\n- **connections** — bloque l'ajout/modif d'une connexion en double\n- **windows** — Picture-in-Picture (mini lecteur always-on-top)\n- **windows** — masque les rappels de notif (non fonctionnels sur Windows)\n- **notifications** — interrupteur in-app (activer/desactiver sans passer par le systeme)\n- **notifications** — ne plus demander la permission au boot + gestion explicite\n- **connections** — test avant sauvegarde aussi a l'EDITION (pas juste l'ajout)\n- **onboarding** — ecran de bienvenue (#5) + etat d'erreur de chargement clair (#4)\n- **onboarding** — support des liens M3U / Xtream a l'ajout de connexion\n- **onboarding** — valide la connexion AVANT sauvegarde + erreurs claires\n- **security** — notifications Discord proactives sur alertes critiques (B3 v2)\n- **security** — pipeline SecurityEvent + detection brute-force/stuffing (brique 3)\n- **admin** — page Fidelisation (retention cohortes + stickiness + churn + expirations)\n- **admin** — dashboard Acquisition (GA4+GSC) + panneau Sécurité\n\n### 🐛 Corrections\n\n- **connections** — retire const sur Icon (AppColors.primary est un getter)\n- **player** — message d'erreur distinct pour un flux 401 (vs 403)\n- **player** — marge titre <-> actions dans la top bar de l'overlay\n- **player** — centre les boutons de la barre du bas de l'overlay\n- **player** �",
+      "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.48.0/MayaIPTV-iOS.ipa",
+      "size": 23276238,
       "minOSVersion": "15.0",
       "versions": [
+        {
+          "version": "1.48.0",
+          "date": "2026-08-12T16:16:14Z",
+          "localizedDescription": "## 📋 Changements (v1.47.2 → v1.48.0)\n\n### ✨ Nouveautés\n\n- **connections** — badge fuseau horaire du serveur a cote du badge de statut\n- **connections** — bloque l'ajout/modif d'une connexion en double\n- **windows** — Picture-in-Picture (mini lecteur always-on-top)\n- **windows** — masque les rappels de notif (non fonctionnels sur Windows)\n- **notifications** — interrupteur in-app (activer/desactiver sans passer par le systeme)\n- **notifications** — ne plus demander la permission au boot + gestion explicite\n- **connections** — test avant sauvegarde aussi a l'EDITION (pas juste l'ajout)\n- **onboarding** — ecran de bienvenue (#5) + etat d'erreur de chargement clair (#4)\n- **onboarding** — support des liens M3U / Xtream a l'ajout de connexion\n- **onboarding** — valide la connexion AVANT sauvegarde + erreurs claires\n- **security** — notifications Discord proactives sur alertes critiques (B3 v2)\n- **security** — pipeline SecurityEvent + detection brute-force/stuffing (brique 3)\n- **admin** — page Fidelisation (retention cohortes + stickiness + churn + expirations)\n- **admin** — dashboard Acquisition (GA4+GSC) + panneau Sécurité\n\n### 🐛 Corrections\n\n- **connections** — retire const sur Icon (AppColors.primary est un getter)\n- **player** — message d'erreur distinct pour un flux 401 (vs 403)\n- **player** — marge titre <-> actions dans la top bar de l'overlay\n- **player** — centre les boutons de la barre du bas de l'overlay\n- **player** �",
+          "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.48.0/MayaIPTV-iOS.ipa",
+          "size": 23276238,
+          "minOSVersion": "15.0"
+        },
         {
           "version": "1.47.2",
           "date": "2026-08-12T06:26:54Z",
@@ -94,14 +102,6 @@
           "localizedDescription": "## 📋 Changements (v1.43.0 → v1.44.0)\n\n### ✨ Nouveautés\n\n- **home** — TMDB-powered \"Recommended for you\" row\n\n---\n**Téléchargements** : `maya-mobile-arm64.apk` (téléphone/tablette), `maya-tv-armv7.apk` (Firestick/box TV), `MayaIPTV-Windows.zip` (PC x64), `MayaIPTV-iOS.ipa` (iPhone — [guide d'installation](https://mayaiptv.com/ios/)).",
           "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.44.0/MayaIPTV-iOS.ipa",
           "size": 22071264,
-          "minOSVersion": "15.0"
-        },
-        {
-          "version": "1.43.0",
-          "date": "2026-07-10T21:46:23Z",
-          "localizedDescription": "## 📋 Changements (v1.42.0 → v1.43.0)\n\n### ✨ Nouveautés\n\n- **search** — TV-guide results UI for temporal AI queries + landing update\n\n### 🐛 Corrections\n\n- **epg** — resolve mainstream FR channels (M6) as match broadcasters\n- **search** — history taps on phrases rerun the smart search\n\n---\n**Téléchargements** : `maya-mobile-arm64.apk` (téléphone/tablette), `maya-tv-armv7.apk` (Firestick/box TV), `MayaIPTV-Windows.zip` (PC x64), `MayaIPTV-iOS.ipa` (iPhone — [guide d'installation](https://mayaiptv.com/ios/)).",
-          "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.43.0/MayaIPTV-iOS.ipa",
-          "size": 22065994,
           "minOSVersion": "15.0"
         }
       ],
