@@ -17,13 +17,21 @@
       "tintColor": "#7C6FF0",
       "category": "entertainment",
       "screenshots": [],
-      "version": "1.50.0",
-      "versionDate": "2026-08-15T08:29:40Z",
-      "versionDescription": "## 📋 Changements (v1.49.0 → v1.50.0)\n\n### ✨ Nouveautés\n\n- **cast** — message de repli générique + watchdog anti-IDLE silencieux\n- **cast** — détecte les codecs audio non supportés (MP2/DTS) + bump 1.50.0\n- **cast** — diagnostic cast + message clair pour les flux live MPEG-TS\n- **player** — affiche la barre du bas (plein écran + PiP) en Live sur Windows\n\n---\n**Téléchargements** : `maya-mobile-arm64.apk` (téléphone/tablette), `maya-tv-armv7.apk` (Firestick/box TV), `MayaIPTV-Windows.zip` (PC x64), `MayaIPTV-iOS.ipa` (iPhone — [guide d'installation](https://mayaiptv.com/ios/)).\n\n",
-      "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.50.0/MayaIPTV-iOS.ipa",
-      "size": 23305407,
+      "version": "1.51.0",
+      "versionDate": "2026-08-15T19:42:39Z",
+      "versionDescription": "## 📋 Changements (v1.50.0 → v1.51.0)\n\n### ✨ Nouveautés\n\n- **release+site** — build APK Android x86_64 (BlissOS / Android-x86 / PC)\n- **recording** — enregistrement programmé depuis l'EPG (approche A)\n- **recording** — bouton REC sur Android TV (D-pad) + capture robuste\n- **recording** — onglet Enregistrements (bibliothèque + lecture)\n- **recording** — enregistrement live immédiat (Android + Windows)\n- **catchup** — replay IPTV Xtream + Stalker depuis l'EPG\n\n### 🐛 Corrections\n\n- **tv** — actions des cartes enregistrement/téléchargement accessibles en D-pad\n- **recording** — enregistrement immédiat via dio sur Windows aussi\n- **sports** — bouton retour en taille standard (cible tactile 48px)\n- **sports** — bouton retour quand l'écran Sports est pushé (impasse Windows)\n- **epg** — bouton retour dans le guide EPG (impasse sur Windows)\n- **tv** — rendre le diagnostic réseau/VPN accessible en D-pad\n- **tv** — auto-focus 1re option de la feuille \"Choose quality\" en D-pad\n- **ci** — --repo sur `gh release view` dans finalize (job sans checkout)\n\n---\n**Téléchargements** : `maya-mobile-arm64.apk` (téléphone/tablette), `maya-tv-armv7.apk` (Firestick/box TV), `maya-pc-x86_64.apk` (Android x86/x86_64 — BlissOS, Android-x86, PC), `MayaIPTV-Windows.zip` (PC x64), `MayaIPTV-iOS.ipa` (iPhone — [guide d'installation](https://mayaiptv.com/ios/)).",
+      "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.51.0/MayaIPTV-iOS.ipa",
+      "size": 23332950,
       "minOSVersion": "15.0",
       "versions": [
+        {
+          "version": "1.51.0",
+          "date": "2026-08-15T19:42:39Z",
+          "localizedDescription": "## 📋 Changements (v1.50.0 → v1.51.0)\n\n### ✨ Nouveautés\n\n- **release+site** — build APK Android x86_64 (BlissOS / Android-x86 / PC)\n- **recording** — enregistrement programmé depuis l'EPG (approche A)\n- **recording** — bouton REC sur Android TV (D-pad) + capture robuste\n- **recording** — onglet Enregistrements (bibliothèque + lecture)\n- **recording** — enregistrement live immédiat (Android + Windows)\n- **catchup** — replay IPTV Xtream + Stalker depuis l'EPG\n\n### 🐛 Corrections\n\n- **tv** — actions des cartes enregistrement/téléchargement accessibles en D-pad\n- **recording** — enregistrement immédiat via dio sur Windows aussi\n- **sports** — bouton retour en taille standard (cible tactile 48px)\n- **sports** — bouton retour quand l'écran Sports est pushé (impasse Windows)\n- **epg** — bouton retour dans le guide EPG (impasse sur Windows)\n- **tv** — rendre le diagnostic réseau/VPN accessible en D-pad\n- **tv** — auto-focus 1re option de la feuille \"Choose quality\" en D-pad\n- **ci** — --repo sur `gh release view` dans finalize (job sans checkout)\n\n---\n**Téléchargements** : `maya-mobile-arm64.apk` (téléphone/tablette), `maya-tv-armv7.apk` (Firestick/box TV), `maya-pc-x86_64.apk` (Android x86/x86_64 — BlissOS, Android-x86, PC), `MayaIPTV-Windows.zip` (PC x64), `MayaIPTV-iOS.ipa` (iPhone — [guide d'installation](https://mayaiptv.com/ios/)).",
+          "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.51.0/MayaIPTV-iOS.ipa",
+          "size": 23332950,
+          "minOSVersion": "15.0"
+        },
         {
           "version": "1.50.0",
           "date": "2026-08-15T08:29:40Z",
@@ -94,14 +102,6 @@
           "localizedDescription": "## 📋 Changements (v1.44.2 → v1.45.0)\n\n### ✨ Nouveautés\n\n- **search** — la validation clavier route les phrases vers la recherche IA\n\n### 🐛 Corrections\n\n- **search** — la dictée vocale lance la recherche même sans finalResult\n- **tv** — l'œil « voir mot de passe » ne répondait pas à la télécommande\n\n---\n**Téléchargements** : `maya-mobile-arm64.apk` (téléphone/tablette), `maya-tv-armv7.apk` (Firestick/box TV), `MayaIPTV-Windows.zip` (PC x64), `MayaIPTV-iOS.ipa` (iPhone — [guide d'installation](https://mayaiptv.com/ios/)).",
           "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.45.0/MayaIPTV-iOS.ipa",
           "size": 22079261,
-          "minOSVersion": "15.0"
-        },
-        {
-          "version": "1.44.2",
-          "date": "2026-07-13T11:21:10Z",
-          "localizedDescription": "## 📋 Changements (v1.44.1 → v1.44.2)\n\n### 🐛 Corrections\n\n- **tv** — D-pad regression — dead player overlay, search-screen focus traps\n\n---\n**Téléchargements** : `maya-mobile-arm64.apk` (téléphone/tablette), `maya-tv-armv7.apk` (Firestick/box TV), `MayaIPTV-Windows.zip` (PC x64), `MayaIPTV-iOS.ipa` (iPhone — [guide d'installation](https://mayaiptv.com/ios/)).",
-          "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.44.2/MayaIPTV-iOS.ipa",
-          "size": 22075165,
           "minOSVersion": "15.0"
         }
       ],
