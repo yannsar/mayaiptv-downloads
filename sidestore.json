@@ -17,13 +17,21 @@
       "tintColor": "#7C6FF0",
       "category": "entertainment",
       "screenshots": [],
-      "version": "1.52.0",
-      "versionDate": "2026-08-16T16:45:54Z",
-      "versionDescription": "## 📋 Changements (v1.51.0 → v1.52.0)\n\n### ✨ Nouveautés\n\n- **profiles** — langue de l'interface dans le formulaire de profil (+ bump 8139)\n- **profiles** — Phase 3 — préférences par profil (langue UI + sous-titres)\n- **profiles** — Phase 2 — les profils Kids masquent le contenu adulte\n- **profiles** — client — sélection/gestion de profils + header X-Profile-Id (Phase 1)\n- **profiles** — backend — entité Profile + scoping favoris/reprise (Phase 0)\n- **player** — contrôle volume desktop + luminosité (Windows mpv / Android écran)\n- **home** — changer de connexion depuis l'accueil (chip header + feuille)\n\n### 🐛 Corrections\n\n- **profiles** — ordre de navigation D-pad du sélecteur (+ 8145)\n- **profiles** — highlight de focus des avatars + bouton Gérer plus visible (+ 8144)\n- **profiles** — navigation D-pad (TV/Firestick) sur l'écran de profil (+ 8143)\n- **i18n** — la langue se rafraîchit immédiatement au changement (+ 8141)\n- **profiles** — langue par profil — formulaire simplifié + fix race de sauvegarde (+ 8140)\n- **search** — résultats en grille (lignes + colonnes) au lieu d'une seule ligne\n- **profiles** — recharger favoris/reprise au changement de profil + sélecteur après login\n- **player** — échelle du volume ExoPlayer (Android) alignée sur 0–100\n- **search** — filtre de recherche sur les chaînes live Stalker\n- **home** — marquee du nom de connexion via SingleChildScrollView\n- **home** — champ nom de",
-      "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.52.0/MayaIPTV-iOS.ipa",
-      "size": 23375341,
+      "version": "1.52.1",
+      "versionDate": "2026-08-16T18:02:34Z",
+      "versionDescription": "## 📋 Changements (v1.52.0 → v1.52.1)\n\n### ✨ Nouveautés\n\n- **multi-live** — MVP Windows — 2 chaînes live en simultané + sélection audio\n\n---\n**Téléchargements** : `maya-mobile-arm64.apk` (téléphone/tablette), `maya-tv-armv7.apk` (Firestick/box TV), `maya-pc-x86_64.apk` (Android x86/x86_64 — BlissOS, Android-x86, PC), `MayaIPTV-Windows.zip` (PC x64), `MayaIPTV-iOS.ipa` (iPhone — [guide d'installation](https://mayaiptv.com/ios/)).",
+      "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.52.1/MayaIPTV-iOS.ipa",
+      "size": 23387475,
       "minOSVersion": "15.0",
       "versions": [
+        {
+          "version": "1.52.1",
+          "date": "2026-08-16T18:02:34Z",
+          "localizedDescription": "## 📋 Changements (v1.52.0 → v1.52.1)\n\n### ✨ Nouveautés\n\n- **multi-live** — MVP Windows — 2 chaînes live en simultané + sélection audio\n\n---\n**Téléchargements** : `maya-mobile-arm64.apk` (téléphone/tablette), `maya-tv-armv7.apk` (Firestick/box TV), `maya-pc-x86_64.apk` (Android x86/x86_64 — BlissOS, Android-x86, PC), `MayaIPTV-Windows.zip` (PC x64), `MayaIPTV-iOS.ipa` (iPhone — [guide d'installation](https://mayaiptv.com/ios/)).",
+          "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.52.1/MayaIPTV-iOS.ipa",
+          "size": 23387475,
+          "minOSVersion": "15.0"
+        },
         {
           "version": "1.52.0",
           "date": "2026-08-16T16:45:54Z",
@@ -94,14 +102,6 @@
           "localizedDescription": "## 📋 Changements (v1.45.1 → v1.46.0)\n\n### ✨ Nouveautés\n\n- **i18n** — ajout de 4 langues — allemand, portugais, espagnol, italien\n- **admin** — interface responsive sur mobile\n\n### 🐛 Corrections\n\n- **landing** — nouveau lien d'invitation Discord (l'ancien etait expire)\n\n---\n**Téléchargements** : `maya-mobile-arm64.apk` (téléphone/tablette), `maya-tv-armv7.apk` (Firestick/box TV), `MayaIPTV-Windows.zip` (PC x64), `MayaIPTV-iOS.ipa` (iPhone — [guide d'installation](https://mayaiptv.com/ios/)).",
           "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.46.0/MayaIPTV-iOS.ipa",
           "size": 22121774,
-          "minOSVersion": "15.0"
-        },
-        {
-          "version": "1.45.1",
-          "date": "2026-07-19T16:00:28Z",
-          "localizedDescription": "## 📋 Changements (v1.45.0 → v1.45.1)\n\n### 🐛 Corrections\n\n- **diag** — les connexions en IP litterale etaient marquees Unreachable a tort\n- **live** — le live Xtream passe en .ts direct, sans pre-validation HTTP\n\n---\n**Téléchargements** : `maya-mobile-arm64.apk` (téléphone/tablette), `maya-tv-armv7.apk` (Firestick/box TV), `MayaIPTV-Windows.zip` (PC x64), `MayaIPTV-iOS.ipa` (iPhone — [guide d'installation](https://mayaiptv.com/ios/)).\n",
-          "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.45.1/MayaIPTV-iOS.ipa",
-          "size": 22080456,
           "minOSVersion": "15.0"
         }
       ],
