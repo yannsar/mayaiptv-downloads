@@ -17,13 +17,21 @@
       "tintColor": "#7C6FF0",
       "category": "entertainment",
       "screenshots": [],
-      "version": "1.52.1",
-      "versionDate": "2026-08-16T18:02:34Z",
-      "versionDescription": "## 📋 Changements (v1.52.0 → v1.52.1)\n\n### ✨ Nouveautés\n\n- **multi-live** — MVP Windows — 2 chaînes live en simultané + sélection audio\n\n---\n**Téléchargements** : `maya-mobile-arm64.apk` (téléphone/tablette), `maya-tv-armv7.apk` (Firestick/box TV), `maya-pc-x86_64.apk` (Android x86/x86_64 — BlissOS, Android-x86, PC), `MayaIPTV-Windows.zip` (PC x64), `MayaIPTV-iOS.ipa` (iPhone — [guide d'installation](https://mayaiptv.com/ios/)).",
-      "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.52.1/MayaIPTV-iOS.ipa",
-      "size": 23387475,
+      "version": "1.52.2",
+      "versionDate": "2026-08-19T19:40:53Z",
+      "versionDescription": "## 📋 Changements (v1.52.1 → v1.52.2)\n\n### ✨ Nouveautés\n\n- **catalog** — message clair \"aucune connexion\" sur Films/Séries/Live/Recherche\n\n### 🐛 Corrections\n\n- **email** — les e-mails de vérification arrivent bien (fin des spams)\n- **comptes** — efface les données de l'ancien compte au changement de compte (fin du lag/crash)\n\n---\n**Téléchargements** : `maya-mobile-arm64.apk` (téléphone/tablette), `maya-tv-armv7.apk` (Firestick/box TV), `maya-pc-x86_64.apk` (Android x86/x86_64 — BlissOS, Android-x86, PC), `MayaIPTV-Windows.zip` (PC x64), `MayaIPTV-iOS.ipa` (iPhone — [guide d'installation](https://mayaiptv.com/ios/)).",
+      "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.52.2/MayaIPTV-iOS.ipa",
+      "size": 23391861,
       "minOSVersion": "15.0",
       "versions": [
+        {
+          "version": "1.52.2",
+          "date": "2026-08-19T19:40:53Z",
+          "localizedDescription": "## 📋 Changements (v1.52.1 → v1.52.2)\n\n### ✨ Nouveautés\n\n- **catalog** — message clair \"aucune connexion\" sur Films/Séries/Live/Recherche\n\n### 🐛 Corrections\n\n- **email** — les e-mails de vérification arrivent bien (fin des spams)\n- **comptes** — efface les données de l'ancien compte au changement de compte (fin du lag/crash)\n\n---\n**Téléchargements** : `maya-mobile-arm64.apk` (téléphone/tablette), `maya-tv-armv7.apk` (Firestick/box TV), `maya-pc-x86_64.apk` (Android x86/x86_64 — BlissOS, Android-x86, PC), `MayaIPTV-Windows.zip` (PC x64), `MayaIPTV-iOS.ipa` (iPhone — [guide d'installation](https://mayaiptv.com/ios/)).",
+          "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.52.2/MayaIPTV-iOS.ipa",
+          "size": 23391861,
+          "minOSVersion": "15.0"
+        },
         {
           "version": "1.52.1",
           "date": "2026-08-16T18:02:34Z",
@@ -94,14 +102,6 @@
           "localizedDescription": "## 📋 Changements (v1.46.0 → v1.47.0)\n\n### ✨ Nouveautés\n\n- **landing** — guides SEO declines en de/es/it/pt (16 pages)\n- **landing** — declinaison anglaise des 4 guides SEO\n- **landing** — 4 pages guides SEO francaises hors-marque\n- **settings** — lien Rejoindre le Discord dans les parametres\n- **analytics** — Firebase Analytics avec ecrans + evenements metier\n- **account** — suppression de compte par l'utilisateur (exigence Google Play)\n- **landing** — pages privacy + delete-account en 8 langues\n\n### 🐛 Corrections\n\n- **update** — desactiver l'auto-update APK quand l'app vient d'un store\n- **landing** — fallback copie presse-papier sur le bouton mail de contact\n- **landing** — mail de contact -> contact@mayaiptv.com\n\n---\n**Téléchargements** : `maya-mobile-arm64.apk` (téléphone/tablette), `maya-tv-armv7.apk` (Firestick/box TV), `MayaIPTV-Windows.zip` (PC x64), `MayaIPTV-iOS.ipa` (iPhone — [guide d'installation](https://mayaiptv.com/ios/)).",
           "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.47.0/MayaIPTV-iOS.ipa",
           "size": 23242754,
-          "minOSVersion": "15.0"
-        },
-        {
-          "version": "1.46.0",
-          "date": "2026-08-09T16:02:09Z",
-          "localizedDescription": "## 📋 Changements (v1.45.1 → v1.46.0)\n\n### ✨ Nouveautés\n\n- **i18n** — ajout de 4 langues — allemand, portugais, espagnol, italien\n- **admin** — interface responsive sur mobile\n\n### 🐛 Corrections\n\n- **landing** — nouveau lien d'invitation Discord (l'ancien etait expire)\n\n---\n**Téléchargements** : `maya-mobile-arm64.apk` (téléphone/tablette), `maya-tv-armv7.apk` (Firestick/box TV), `MayaIPTV-Windows.zip` (PC x64), `MayaIPTV-iOS.ipa` (iPhone — [guide d'installation](https://mayaiptv.com/ios/)).",
-          "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.46.0/MayaIPTV-iOS.ipa",
-          "size": 22121774,
           "minOSVersion": "15.0"
         }
       ],
