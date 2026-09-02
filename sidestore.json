@@ -17,13 +17,21 @@
       "tintColor": "#7C6FF0",
       "category": "entertainment",
       "screenshots": [],
-      "version": "1.54.0",
-      "versionDate": "2026-08-24T18:16:38Z",
-      "versionDescription": "## 📋 Changements (v1.53.0 → v1.54.0)\n\n### ✨ Nouveautés\n\n- **epg** — indicateur replay/catchup dans la timeline du guide [NON TESTÉ]\n- **downloads** — afficher le % de téléchargement pendant le DL\n- **airplay** — AirPlay iOS via AVPlayer + réutilisation du proxy HLS\n- **cast** — AC-3 passthrough (A_AC3) dans le muxeur MKV\n- **cast** — déclenchement auto du muxeur MKV par castMode + auto en défaut\n- **cast** — Phase 2 — MP2→AAC transcodé injecté dans le muxeur MKV\n- **cast** — muxeur TS→MKV live (Phase 1) — chaînes entrelacées/TS castables\n- **cast** — instrumentation MEDIA_STATUS (CAST-DIAG) + déclencheur transcode .ts\n- **cast** — overlay — état \"Incompatible (entrelacé)\" distinct du transcode\n- **cast** — retry proxy sur 503 (recouvrement de connexion local→cast)\n- **cast** — Lot 4 — transcode audio aussi sur le chemin HLS-passthrough\n- **cast** — Lot 4 — wiring live du transcode audio MP2→AAC (par segment)\n- **cast** — Lot 4 brique 3b — remuxer TS audio (MP2→AAC) VALIDÉ ffprobe\n- **cast** — Lot 4 brique 3b (step 1) — CRC-32 MPEG + auto-check PMT validés\n- **cast** — Lot 4 brique 3a VALIDÉE — encode PCM→AAC-LC (MediaCodec/ADTS)\n- **cast** — Lot 4 brique 2 VALIDÉE — extracteur audio ES depuis le TS\n- **cast** — Lot 4 brique 1 — décodeur MP2 natif (minimp3) → WAV\n- **cast** — check MediaCodecList audio (décodeur MP2 + encodeur AAC) — pré-Lot 4\n- **cast** — §1 gating par capac",
-      "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.54.0/MayaIPTV-iOS.ipa",
-      "size": 23471693,
+      "version": "1.55.0",
+      "versionDate": "2026-09-02T08:42:48Z",
+      "versionDescription": "## ✨ Nouveautés\n\n**AirPlay — de l'iPhone vers l'Apple TV.** L'app peut maintenant envoyer un film, un épisode ou une chaîne en direct sur une Apple TV. ⚠️ Fonction toute neuve, pas encore éprouvée sur une vraie Apple TV : vos retours nous aideront.\n\n**Cast Chromecast nettement plus fiable.** Les films MKV qui restaient muets ou refusaient de démarrer se lancent, le direct ne se coupe plus après quelques minutes, et arrêter la lecture depuis la télé est enfin détecté par l'app. Quand un flux ne peut vraiment pas être casté, l'app le dit au lieu de tourner en rond.\n\n## 🐛 Corrections\n\n**Lecteur.** Le bouton « épisode suivant » reste accessible jusqu'au bout de l'épisode, et apparaît sur des séries où il manquait. Quitter un film libère aussitôt la connexion chez le fournisseur — plus d'erreur au lancement du film suivant. Si la limite de connexions simultanées de votre abonnement est atteinte, l'app l'explique clairement au lieu d'afficher un code. Retour à l'écran portrait corrigé en sortant du lecteur, y compris vers un lecteur externe.\n\n**Contenus.** Le code parental est respecté en mode direct Xtream. Les films dont le fournisseur annonce un mauvais format se lisent désormais.\n\n**Connexions.** Les infos du compte — expiration, connexions maximum, statut — s'affichent aussi pour les portails Stalker, comme pour Xtream.\n\n**Téléchargements.** La notification affiche la vraie progression.\n\n## 📖 Site\n\nNouveau guide de configuration passant en revue tous les réglages de l'app, publié dans les 8 langues.",
+      "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.55.0/MayaIPTV-iOS.ipa",
+      "size": 23543915,
       "minOSVersion": "15.0",
       "versions": [
+        {
+          "version": "1.55.0",
+          "date": "2026-09-02T08:42:48Z",
+          "localizedDescription": "## ✨ Nouveautés\n\n**AirPlay — de l'iPhone vers l'Apple TV.** L'app peut maintenant envoyer un film, un épisode ou une chaîne en direct sur une Apple TV. ⚠️ Fonction toute neuve, pas encore éprouvée sur une vraie Apple TV : vos retours nous aideront.\n\n**Cast Chromecast nettement plus fiable.** Les films MKV qui restaient muets ou refusaient de démarrer se lancent, le direct ne se coupe plus après quelques minutes, et arrêter la lecture depuis la télé est enfin détecté par l'app. Quand un flux ne peut vraiment pas être casté, l'app le dit au lieu de tourner en rond.\n\n## 🐛 Corrections\n\n**Lecteur.** Le bouton « épisode suivant » reste accessible jusqu'au bout de l'épisode, et apparaît sur des séries où il manquait. Quitter un film libère aussitôt la connexion chez le fournisseur — plus d'erreur au lancement du film suivant. Si la limite de connexions simultanées de votre abonnement est atteinte, l'app l'explique clairement au lieu d'afficher un code. Retour à l'écran portrait corrigé en sortant du lecteur, y compris vers un lecteur externe.\n\n**Contenus.** Le code parental est respecté en mode direct Xtream. Les films dont le fournisseur annonce un mauvais format se lisent désormais.\n\n**Connexions.** Les infos du compte — expiration, connexions maximum, statut — s'affichent aussi pour les portails Stalker, comme pour Xtream.\n\n**Téléchargements.** La notification affiche la vraie progression.\n\n## 📖 Site\n\nNouveau guide de configuration passant en revue tous les réglages de l'app, publié dans les 8 langues.",
+          "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.55.0/MayaIPTV-iOS.ipa",
+          "size": 23543915,
+          "minOSVersion": "15.0"
+        },
         {
           "version": "1.54.0",
           "date": "2026-08-24T18:16:38Z",
@@ -94,14 +102,6 @@
           "localizedDescription": "## 📋 Changements (v1.47.2 → v1.48.0)\n\n### ✨ Nouveautés\n\n- **connections** — badge fuseau horaire du serveur a cote du badge de statut\n- **connections** — bloque l'ajout/modif d'une connexion en double\n- **windows** — Picture-in-Picture (mini lecteur always-on-top)\n- **windows** — masque les rappels de notif (non fonctionnels sur Windows)\n- **notifications** — interrupteur in-app (activer/desactiver sans passer par le systeme)\n- **notifications** — ne plus demander la permission au boot + gestion explicite\n- **connections** — test avant sauvegarde aussi a l'EDITION (pas juste l'ajout)\n- **onboarding** — ecran de bienvenue (#5) + etat d'erreur de chargement clair (#4)\n- **onboarding** — support des liens M3U / Xtream a l'ajout de connexion\n- **onboarding** — valide la connexion AVANT sauvegarde + erreurs claires\n- **security** — notifications Discord proactives sur alertes critiques (B3 v2)\n- **security** — pipeline SecurityEvent + detection brute-force/stuffing (brique 3)\n- **admin** — page Fidelisation (retention cohortes + stickiness + churn + expirations)\n- **admin** — dashboard Acquisition (GA4+GSC) + panneau Sécurité\n\n### 🐛 Corrections\n\n- **connections** — retire const sur Icon (AppColors.primary est un getter)\n- **player** — message d'erreur distinct pour un flux 401 (vs 403)\n- **player** — marge titre <-> actions dans la top bar de l'overlay\n- **player** — centre les boutons de la barre du bas de l'overlay\n- **player** �",
           "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.48.0/MayaIPTV-iOS.ipa",
           "size": 23276238,
-          "minOSVersion": "15.0"
-        },
-        {
-          "version": "1.47.2",
-          "date": "2026-08-12T06:26:54Z",
-          "localizedDescription": "## 📋 Changements (v1.47.1 → v1.47.2)\n\n### 🐛 Corrections\n\n- **android** — retire la lib pub AdID pour passer la revue Amazon Appstore\n\n---\n**Téléchargements** : `maya-mobile-arm64.apk` (téléphone/tablette), `maya-tv-armv7.apk` (Firestick/box TV), `MayaIPTV-Windows.zip` (PC x64), `MayaIPTV-iOS.ipa` (iPhone — [guide d'installation](https://mayaiptv.com/ios/)).",
-          "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.47.2/MayaIPTV-iOS.ipa",
-          "size": 23251527,
           "minOSVersion": "15.0"
         }
       ],
