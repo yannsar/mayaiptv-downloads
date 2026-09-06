@@ -17,13 +17,21 @@
       "tintColor": "#7C6FF0",
       "category": "entertainment",
       "screenshots": [],
-      "version": "1.55.2",
-      "versionDate": "2026-09-02T22:01:36Z",
-      "versionDescription": "Trois correctifs, surtout pour la télé et les séries.\n\nTélévision et boîtiers Android\nEn quittant une vidéo, l'application basculait en mode portrait : l'image se\nretrouvait à la verticale au milieu de l'écran, avec de grandes bandes noires\nde chaque côté. C'est corrigé, l'interface reste en plein écran paysage. Les\nFirestick n'étaient pas concernées.\n\nSéries\n« Marquer comme terminé » ne faisait rien sur un épisode : l'épisode est\nmaintenant vraiment marqué comme vu, la pastille verte apparaît aussitôt et\nl'état est conservé.\nLa progression et les favoris se rattachaient parfois à une série vide quand\nle catalogue est chargé directement depuis le fournisseur ; ils retrouvent la\nbonne série.",
-      "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.55.2/MayaIPTV-iOS.ipa",
-      "size": 23544443,
+      "version": "1.56.0",
+      "versionDate": "2026-09-06T18:20:00Z",
+      "versionDescription": "Maya IPTV 1.56.0 — catalogue plus propre, onglets instantanés, recherche et guide TV plus fiables\n\nCatalogue\n- Titres nettoyés partout, y compris les préfixes des portails Stalker (« 4K-FR - », « AMZ - », « VIP: »…) et les classements « TOP 250 ».\n- Les doublons de chaînes (« 6 TER » et « 6TER », « 13 EME RUE » et « 13EME Rue ») ne font plus qu'une carte ; deux flux au même nom sont numérotés dans le sélecteur, avec leur codec.\n- Les fausses chaînes « ### … » qui ouvraient chaque catégorie ont disparu.\n- Le nombre d'éléments s'affiche dans l'en-tête : « Films (46 577) », par catégorie aussi, sur Live, Films et Séries.\n- Changer de catégorie n'interroge plus le fournisseur à chaque fois.\n\nVitesse\n- Live TV, Films et Séries se préchargent après l'accueil : plus de spinner au premier tap.\n- Le guide TV ne martèle plus le serveur : cache par chaîne, débit plafonné, reprise automatique après une limitation. Fini les guides vides ou troués.\n\nRecherche\n- La recherche IA ne reste plus bloquée sur des résultats génériques quand le quota est atteint, et vérifie l'année du film.\n- Un résultat groupé ouvre le sélecteur de flux au lieu de lancer la première variante en silence.\n\nLecteur\n- Plus d'écran à moitié blanc après un Back rapide en sortant d'une vidéo (téléphone).\n- Le badge MULTI ne recouvre plus la note quand le titre est long.\n\nDivers\n- Une question, une seule fois, à la deuxième ouverture : « Comment as-tu connu Maya IPTV ? ». Passer est possible.\n- Un épisode coché « terminé » peut être remis en « non vu ».\n- OpenSubtitles reste activé après une réinstallation.\n- Correction d'une erreur silencieuse au chargement de l'accueil pendant la restauration de connexion.",
+      "downloadURL": "https://mayaiptv.com/dl/ios/v1.56.0?src=sidestore",
+      "size": 23575417,
       "minOSVersion": "15.0",
       "versions": [
+        {
+          "version": "1.56.0",
+          "date": "2026-09-06T18:20:00Z",
+          "localizedDescription": "Maya IPTV 1.56.0 — catalogue plus propre, onglets instantanés, recherche et guide TV plus fiables\n\nCatalogue\n- Titres nettoyés partout, y compris les préfixes des portails Stalker (« 4K-FR - », « AMZ - », « VIP: »…) et les classements « TOP 250 ».\n- Les doublons de chaînes (« 6 TER » et « 6TER », « 13 EME RUE » et « 13EME Rue ») ne font plus qu'une carte ; deux flux au même nom sont numérotés dans le sélecteur, avec leur codec.\n- Les fausses chaînes « ### … » qui ouvraient chaque catégorie ont disparu.\n- Le nombre d'éléments s'affiche dans l'en-tête : « Films (46 577) », par catégorie aussi, sur Live, Films et Séries.\n- Changer de catégorie n'interroge plus le fournisseur à chaque fois.\n\nVitesse\n- Live TV, Films et Séries se préchargent après l'accueil : plus de spinner au premier tap.\n- Le guide TV ne martèle plus le serveur : cache par chaîne, débit plafonné, reprise automatique après une limitation. Fini les guides vides ou troués.\n\nRecherche\n- La recherche IA ne reste plus bloquée sur des résultats génériques quand le quota est atteint, et vérifie l'année du film.\n- Un résultat groupé ouvre le sélecteur de flux au lieu de lancer la première variante en silence.\n\nLecteur\n- Plus d'écran à moitié blanc après un Back rapide en sortant d'une vidéo (téléphone).\n- Le badge MULTI ne recouvre plus la note quand le titre est long.\n\nDivers\n- Une question, une seule fois, à la deuxième ouverture : « Comment as-tu connu Maya IPTV ? ». Passer est possible.\n- Un épisode coché « terminé » peut être remis en « non vu ».\n- OpenSubtitles reste activé après une réinstallation.\n- Correction d'une erreur silencieuse au chargement de l'accueil pendant la restauration de connexion.",
+          "downloadURL": "https://mayaiptv.com/dl/ios/v1.56.0?src=sidestore",
+          "size": 23575417,
+          "minOSVersion": "15.0"
+        },
         {
           "version": "1.55.2",
           "date": "2026-09-02T22:01:36Z",
@@ -94,14 +102,6 @@
           "localizedDescription": "## 📋 Changements (v1.50.0 → v1.51.0)\n\n### ✨ Nouveautés\n\n- **release+site** — build APK Android x86_64 (BlissOS / Android-x86 / PC)\n- **recording** — enregistrement programmé depuis l'EPG (approche A)\n- **recording** — bouton REC sur Android TV (D-pad) + capture robuste\n- **recording** — onglet Enregistrements (bibliothèque + lecture)\n- **recording** — enregistrement live immédiat (Android + Windows)\n- **catchup** — replay IPTV Xtream + Stalker depuis l'EPG\n\n### 🐛 Corrections\n\n- **tv** — actions des cartes enregistrement/téléchargement accessibles en D-pad\n- **recording** — enregistrement immédiat via dio sur Windows aussi\n- **sports** — bouton retour en taille standard (cible tactile 48px)\n- **sports** — bouton retour quand l'écran Sports est pushé (impasse Windows)\n- **epg** — bouton retour dans le guide EPG (impasse sur Windows)\n- **tv** — rendre le diagnostic réseau/VPN accessible en D-pad\n- **tv** — auto-focus 1re option de la feuille \"Choose quality\" en D-pad\n- **ci** — --repo sur `gh release view` dans finalize (job sans checkout)\n\n---\n**Téléchargements** : `maya-mobile-arm64.apk` (téléphone/tablette), `maya-tv-armv7.apk` (Firestick/box TV), `maya-pc-x86_64.apk` (Android x86/x86_64 — BlissOS, Android-x86, PC), `MayaIPTV-Windows.zip` (PC x64), `MayaIPTV-iOS.ipa` (iPhone — [guide d'installation](https://mayaiptv.com/ios/)).",
           "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.51.0/MayaIPTV-iOS.ipa",
           "size": 23332950,
-          "minOSVersion": "15.0"
-        },
-        {
-          "version": "1.50.0",
-          "date": "2026-08-15T08:29:40Z",
-          "localizedDescription": "## 📋 Changements (v1.49.0 → v1.50.0)\n\n### ✨ Nouveautés\n\n- **cast** — message de repli générique + watchdog anti-IDLE silencieux\n- **cast** — détecte les codecs audio non supportés (MP2/DTS) + bump 1.50.0\n- **cast** — diagnostic cast + message clair pour les flux live MPEG-TS\n- **player** — affiche la barre du bas (plein écran + PiP) en Live sur Windows\n\n---\n**Téléchargements** : `maya-mobile-arm64.apk` (téléphone/tablette), `maya-tv-armv7.apk` (Firestick/box TV), `MayaIPTV-Windows.zip` (PC x64), `MayaIPTV-iOS.ipa` (iPhone — [guide d'installation](https://mayaiptv.com/ios/)).\n\n",
-          "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.50.0/MayaIPTV-iOS.ipa",
-          "size": 23305407,
           "minOSVersion": "15.0"
         }
       ],
