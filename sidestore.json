@@ -17,13 +17,21 @@
       "tintColor": "#7C6FF0",
       "category": "entertainment",
       "screenshots": [],
-      "version": "1.57.0",
-      "versionDate": "2026-09-11T22:11:20Z",
-      "versionDescription": "Maya IPTV 1.57.0 — Rugby, Fire TV plus fluide, rappels de match à la télécommande\n\nSport\n- Nouvel onglet Rugby : Top 14, Pro D2, Premiership, tests… avec filtres par pays et championnat, comme les autres sports.\n- Les onglets de sport défilent horizontalement : les libellés restent lisibles sur téléphone et sur TV.\n- Appui long sur un match à venir (ou touche Menu de la télécommande) : rappel 15 minutes avant le coup d'envoi.\n- Dans la fiche d'un match, le bouton « Regarder en direct » se sélectionne à la télécommande.\n- Les matchs dont l'heure est passée mais que la source n'a pas mis à jour ne polluent plus « À venir » : ils rejoignent une section dédiée en fin de liste. Le message du rappel dit clairement quand le coup d'envoi est déjà passé.\n- La carte Sport de l'accueil passe avant « Continuer ».\n\nFire TV et Android TV\n- Fin des blocages sur l'écran Sport : ouverture, changement d'onglet et rafraîchissement des scores ne figent plus la télécommande.\n- Le bouton Retour ferme bien la fiche d'un match au lieu de quitter l'écran Sport.\n- Appuyer sur la télécommande pendant le chargement de l'accueil ne bloque plus l'app.\n\nAccueil et navigation\n- Rangées de l'accueil harmonisées : nouveautés, populaires et recommandations affichent le même nombre de titres.\n- Onglet « Tous » des films et séries : corrige la liste vide en mode direct.\n- Colonnes de grille : réglage automatique selon l'écran (3 sur téléphone, 4 ou 5 sur tablette, 6 sur TV et ordinateur), le réglage affiche la valeur réellement appliquée et permet jusqu'à 7 colonnes.\n\nCorrections\n- Bande-annonce : au retour de YouTube, l'app ne restait plus bloquée sur un cercle de chargement.\n- Windows : le logo Maya remplace l'icône générique du menu latéral.",
-      "downloadURL": "https://mayaiptv.com/dl/ios/v1.57.0?src=sidestore",
-      "size": 23590169,
+      "version": "1.58.0",
+      "versionDate": "2026-09-15T20:16:03Z",
+      "versionDescription": "Maya IPTV 1.58.0 — Maya arrive sur Mac, démarrage soigné, connexions plus claires\n\nMac\n- Maya IPTV est disponible sur Mac : Apple Silicon et Intel, à partir de macOS 11.\n- Installation classique : on télécharge, on glisse dans Applications, on ouvre. Aucun avertissement de sécurité, l'app est signée et validée par Apple.\n- Les mêmes fonctions que sur Windows : souris et clavier, plein écran, et une mini-fenêtre Picture-in-Picture pour garder la vidéo dans un coin de l'écran.\n\nDémarrage\n- L'écran de lancement affiche le logo sur fond sombre, sur iPhone comme sur Android : fini le flash blanc à l'ouverture.\n- Sur iPhone, l'autorisation de notifications n'est plus demandée dès l'ouverture mais au moment où elle sert.\n\nConnexions\n- Quand un fournisseur est injoignable parce que le réseau ou le DNS le redirige, l'app le dit clairement au lieu d'annoncer « identifiants invalides ».\n- Des fournisseurs parfaitement valides étaient refusés à l'ajout d'une connexion à cause d'une particularité DNS de leur côté : ils passent désormais.\n\nCoulisses\n- Mémoire du serveur fortement réduite sur le guide TV : fini les redémarrages en boucle et les guides vides qui allaient avec.\n- Le cache des portails Stalker est purgé régulièrement au lieu de grossir sans fin.",
+      "downloadURL": "https://mayaiptv.com/dl/ios/v1.58.0?src=sidestore",
+      "size": 23682889,
       "minOSVersion": "15.0",
       "versions": [
+        {
+          "version": "1.58.0",
+          "date": "2026-09-15T20:16:03Z",
+          "localizedDescription": "Maya IPTV 1.58.0 — Maya arrive sur Mac, démarrage soigné, connexions plus claires\n\nMac\n- Maya IPTV est disponible sur Mac : Apple Silicon et Intel, à partir de macOS 11.\n- Installation classique : on télécharge, on glisse dans Applications, on ouvre. Aucun avertissement de sécurité, l'app est signée et validée par Apple.\n- Les mêmes fonctions que sur Windows : souris et clavier, plein écran, et une mini-fenêtre Picture-in-Picture pour garder la vidéo dans un coin de l'écran.\n\nDémarrage\n- L'écran de lancement affiche le logo sur fond sombre, sur iPhone comme sur Android : fini le flash blanc à l'ouverture.\n- Sur iPhone, l'autorisation de notifications n'est plus demandée dès l'ouverture mais au moment où elle sert.\n\nConnexions\n- Quand un fournisseur est injoignable parce que le réseau ou le DNS le redirige, l'app le dit clairement au lieu d'annoncer « identifiants invalides ».\n- Des fournisseurs parfaitement valides étaient refusés à l'ajout d'une connexion à cause d'une particularité DNS de leur côté : ils passent désormais.\n\nCoulisses\n- Mémoire du serveur fortement réduite sur le guide TV : fini les redémarrages en boucle et les guides vides qui allaient avec.\n- Le cache des portails Stalker est purgé régulièrement au lieu de grossir sans fin.",
+          "downloadURL": "https://mayaiptv.com/dl/ios/v1.58.0?src=sidestore",
+          "size": 23682889,
+          "minOSVersion": "15.0"
+        },
         {
           "version": "1.57.0",
           "date": "2026-09-11T22:11:20Z",
@@ -94,14 +102,6 @@
           "localizedDescription": "## 📋 Changements (v1.52.0 → v1.52.1)\n\n### ✨ Nouveautés\n\n- **multi-live** — MVP Windows — 2 chaînes live en simultané + sélection audio\n\n---\n**Téléchargements** : `maya-mobile-arm64.apk` (téléphone/tablette), `maya-tv-armv7.apk` (Firestick/box TV), `maya-pc-x86_64.apk` (Android x86/x86_64 — BlissOS, Android-x86, PC), `MayaIPTV-Windows.zip` (PC x64), `MayaIPTV-iOS.ipa` (iPhone — [guide d'installation](https://mayaiptv.com/ios/)).",
           "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.52.1/MayaIPTV-iOS.ipa",
           "size": 23387475,
-          "minOSVersion": "15.0"
-        },
-        {
-          "version": "1.52.0",
-          "date": "2026-08-16T16:45:54Z",
-          "localizedDescription": "## 📋 Changements (v1.51.0 → v1.52.0)\n\n### ✨ Nouveautés\n\n- **profiles** — langue de l'interface dans le formulaire de profil (+ bump 8139)\n- **profiles** — Phase 3 — préférences par profil (langue UI + sous-titres)\n- **profiles** — Phase 2 — les profils Kids masquent le contenu adulte\n- **profiles** — client — sélection/gestion de profils + header X-Profile-Id (Phase 1)\n- **profiles** — backend — entité Profile + scoping favoris/reprise (Phase 0)\n- **player** — contrôle volume desktop + luminosité (Windows mpv / Android écran)\n- **home** — changer de connexion depuis l'accueil (chip header + feuille)\n\n### 🐛 Corrections\n\n- **profiles** — ordre de navigation D-pad du sélecteur (+ 8145)\n- **profiles** — highlight de focus des avatars + bouton Gérer plus visible (+ 8144)\n- **profiles** — navigation D-pad (TV/Firestick) sur l'écran de profil (+ 8143)\n- **i18n** — la langue se rafraîchit immédiatement au changement (+ 8141)\n- **profiles** — langue par profil — formulaire simplifié + fix race de sauvegarde (+ 8140)\n- **search** — résultats en grille (lignes + colonnes) au lieu d'une seule ligne\n- **profiles** — recharger favoris/reprise au changement de profil + sélecteur après login\n- **player** — échelle du volume ExoPlayer (Android) alignée sur 0–100\n- **search** — filtre de recherche sur les chaînes live Stalker\n- **home** — marquee du nom de connexion via SingleChildScrollView\n- **home** — champ nom de",
-          "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.52.0/MayaIPTV-iOS.ipa",
-          "size": 23375341,
           "minOSVersion": "15.0"
         }
       ],
