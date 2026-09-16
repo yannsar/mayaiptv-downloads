@@ -17,13 +17,21 @@
       "tintColor": "#7C6FF0",
       "category": "entertainment",
       "screenshots": [],
-      "version": "1.58.0",
-      "versionDate": "2026-09-15T20:16:03Z",
-      "versionDescription": "Maya IPTV 1.58.0 — Maya arrive sur Mac, démarrage soigné, connexions plus claires\n\nMac\n- Maya IPTV est disponible sur Mac : Apple Silicon et Intel, à partir de macOS 11.\n- Installation classique : on télécharge, on glisse dans Applications, on ouvre. Aucun avertissement de sécurité, l'app est signée et validée par Apple.\n- Les mêmes fonctions que sur Windows : souris et clavier, plein écran, et une mini-fenêtre Picture-in-Picture pour garder la vidéo dans un coin de l'écran.\n\nDémarrage\n- L'écran de lancement affiche le logo sur fond sombre, sur iPhone comme sur Android : fini le flash blanc à l'ouverture.\n- Sur iPhone, l'autorisation de notifications n'est plus demandée dès l'ouverture mais au moment où elle sert.\n\nConnexions\n- Quand un fournisseur est injoignable parce que le réseau ou le DNS le redirige, l'app le dit clairement au lieu d'annoncer « identifiants invalides ».\n- Des fournisseurs parfaitement valides étaient refusés à l'ajout d'une connexion à cause d'une particularité DNS de leur côté : ils passent désormais.\n\nCoulisses\n- Mémoire du serveur fortement réduite sur le guide TV : fini les redémarrages en boucle et les guides vides qui allaient avec.\n- Le cache des portails Stalker est purgé régulièrement au lieu de grossir sans fin.",
-      "downloadURL": "https://mayaiptv.com/dl/ios/v1.58.0?src=sidestore",
-      "size": 23682889,
+      "version": "1.59.0",
+      "versionDate": "2026-09-16T17:53:50Z",
+      "versionDescription": "MayaIPTV 1.59.0\n\n🎧 Commandes multimédia du système\n- Vos écouteurs et claviers pilotent le lecteur : lecture/pause, avance et retour rapides, volume — AirPods (pincez la tige), casques Bluetooth, touches multimédia du clavier.\n- Le film ou la chaîne en cours apparaît dans le centre de contrôle (macOS, iOS) et dans les commandes multimédia Android.\n- Disponible sur macOS, iOS et Android.\n\n🌐 Contournement des blocages FAI (DoH), partout\n- La résolution DNS chiffrée (DNS over HTTPS) couvre désormais toute l'application : catalogue, images, téléchargements, enregistrements, Chromecast et lecteur vidéo — plus seulement la connexion au fournisseur.\n- Sans VPN, sur un accès Orange/SFR/Bouygues/Free qui détourne le DNS, vos contenus se chargent et se lisent. Le test des connexions affiche un badge « DNS bypass » quand le contournement est actif, au lieu d'« injoignable ».\n- Si un flux reste bloqué au niveau du FAI (HTTPS), un message clair l'explique au lancement de la vidéo plutôt qu'une erreur de format.\n\n🎬 Lecteur macOS\n- Le curseur se masque en plein écran pendant la lecture.\n- Un indicateur de chargement s'affiche dès le clic sur un film, une série ou une chaîne ; le double-clic ne lance plus la vidéo deux fois.\n- Comptes Stalker/MAG : le jeton de lecture à usage unique est renouvelé automatiquement lors des reprises et des rechutes de flux — fin des « video link has expired ».\n\n🔑 Réinitialisation du mot de passe sur mobile\n- Le lien reçu par e-mail ouvre désormais correctement l'écran de réinitialisation dans l'application (Android et iOS). La page web reste utilisable dans le navigateur.\n\n🍎 macOS : compatibilité minimum macOS 12 (Monterey).",
+      "downloadURL": "https://mayaiptv.com/dl/ios/v1.59.0?src=sidestore",
+      "size": 23680028,
       "minOSVersion": "15.0",
       "versions": [
+        {
+          "version": "1.59.0",
+          "date": "2026-09-16T17:53:50Z",
+          "localizedDescription": "MayaIPTV 1.59.0\n\n🎧 Commandes multimédia du système\n- Vos écouteurs et claviers pilotent le lecteur : lecture/pause, avance et retour rapides, volume — AirPods (pincez la tige), casques Bluetooth, touches multimédia du clavier.\n- Le film ou la chaîne en cours apparaît dans le centre de contrôle (macOS, iOS) et dans les commandes multimédia Android.\n- Disponible sur macOS, iOS et Android.\n\n🌐 Contournement des blocages FAI (DoH), partout\n- La résolution DNS chiffrée (DNS over HTTPS) couvre désormais toute l'application : catalogue, images, téléchargements, enregistrements, Chromecast et lecteur vidéo — plus seulement la connexion au fournisseur.\n- Sans VPN, sur un accès Orange/SFR/Bouygues/Free qui détourne le DNS, vos contenus se chargent et se lisent. Le test des connexions affiche un badge « DNS bypass » quand le contournement est actif, au lieu d'« injoignable ».\n- Si un flux reste bloqué au niveau du FAI (HTTPS), un message clair l'explique au lancement de la vidéo plutôt qu'une erreur de format.\n\n🎬 Lecteur macOS\n- Le curseur se masque en plein écran pendant la lecture.\n- Un indicateur de chargement s'affiche dès le clic sur un film, une série ou une chaîne ; le double-clic ne lance plus la vidéo deux fois.\n- Comptes Stalker/MAG : le jeton de lecture à usage unique est renouvelé automatiquement lors des reprises et des rechutes de flux — fin des « video link has expired ».\n\n🔑 Réinitialisation du mot de passe sur mobile\n- Le lien reçu par e-mail ouvre désormais correctement l'écran de réinitialisation dans l'application (Android et iOS). La page web reste utilisable dans le navigateur.\n\n🍎 macOS : compatibilité minimum macOS 12 (Monterey).",
+          "downloadURL": "https://mayaiptv.com/dl/ios/v1.59.0?src=sidestore",
+          "size": 23680028,
+          "minOSVersion": "15.0"
+        },
         {
           "version": "1.58.0",
           "date": "2026-09-15T20:16:03Z",
@@ -94,14 +102,6 @@
           "localizedDescription": "## 📋 Changements (v1.52.1 → v1.52.2)\n\n### ✨ Nouveautés\n\n- **catalog** — message clair \"aucune connexion\" sur Films/Séries/Live/Recherche\n\n### 🐛 Corrections\n\n- **email** — les e-mails de vérification arrivent bien (fin des spams)\n- **comptes** — efface les données de l'ancien compte au changement de compte (fin du lag/crash)\n\n---\n**Téléchargements** : `maya-mobile-arm64.apk` (téléphone/tablette), `maya-tv-armv7.apk` (Firestick/box TV), `maya-pc-x86_64.apk` (Android x86/x86_64 — BlissOS, Android-x86, PC), `MayaIPTV-Windows.zip` (PC x64), `MayaIPTV-iOS.ipa` (iPhone — [guide d'installation](https://mayaiptv.com/ios/)).",
           "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.52.2/MayaIPTV-iOS.ipa",
           "size": 23391861,
-          "minOSVersion": "15.0"
-        },
-        {
-          "version": "1.52.1",
-          "date": "2026-08-16T18:02:34Z",
-          "localizedDescription": "## 📋 Changements (v1.52.0 → v1.52.1)\n\n### ✨ Nouveautés\n\n- **multi-live** — MVP Windows — 2 chaînes live en simultané + sélection audio\n\n---\n**Téléchargements** : `maya-mobile-arm64.apk` (téléphone/tablette), `maya-tv-armv7.apk` (Firestick/box TV), `maya-pc-x86_64.apk` (Android x86/x86_64 — BlissOS, Android-x86, PC), `MayaIPTV-Windows.zip` (PC x64), `MayaIPTV-iOS.ipa` (iPhone — [guide d'installation](https://mayaiptv.com/ios/)).",
-          "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.52.1/MayaIPTV-iOS.ipa",
-          "size": 23387475,
           "minOSVersion": "15.0"
         }
       ],
