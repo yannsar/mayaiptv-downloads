@@ -17,13 +17,21 @@
       "tintColor": "#7C6FF0",
       "category": "entertainment",
       "screenshots": [],
-      "version": "1.59.0",
-      "versionDate": "2026-09-16T17:53:50Z",
-      "versionDescription": "MayaIPTV 1.59.0\n\n🎧 Commandes multimédia du système\n- Vos écouteurs et claviers pilotent le lecteur : lecture/pause, avance et retour rapides, volume — AirPods (pincez la tige), casques Bluetooth, touches multimédia du clavier.\n- Le film ou la chaîne en cours apparaît dans le centre de contrôle (macOS, iOS) et dans les commandes multimédia Android.\n- Disponible sur macOS, iOS et Android.\n\n🌐 Contournement des blocages FAI (DoH), partout\n- La résolution DNS chiffrée (DNS over HTTPS) couvre désormais toute l'application : catalogue, images, téléchargements, enregistrements, Chromecast et lecteur vidéo — plus seulement la connexion au fournisseur.\n- Sans VPN, sur un accès Orange/SFR/Bouygues/Free qui détourne le DNS, vos contenus se chargent et se lisent. Le test des connexions affiche un badge « DNS bypass » quand le contournement est actif, au lieu d'« injoignable ».\n- Si un flux reste bloqué au niveau du FAI (HTTPS), un message clair l'explique au lancement de la vidéo plutôt qu'une erreur de format.\n\n🎬 Lecteur macOS\n- Le curseur se masque en plein écran pendant la lecture.\n- Un indicateur de chargement s'affiche dès le clic sur un film, une série ou une chaîne ; le double-clic ne lance plus la vidéo deux fois.\n- Comptes Stalker/MAG : le jeton de lecture à usage unique est renouvelé automatiquement lors des reprises et des rechutes de flux — fin des « video link has expired ».\n\n🔑 Réinitialisation du mot de passe sur mobile\n- Le lien reçu par e-mail ouvre désormais correctement l'écran de réinitialisation dans l'application (Android et iOS). La page web reste utilisable dans le navigateur.\n\n🍎 macOS : compatibilité minimum macOS 12 (Monterey).",
-      "downloadURL": "https://mayaiptv.com/dl/ios/v1.59.0?src=sidestore",
-      "size": 23680028,
+      "version": "1.60.0",
+      "versionDate": "2026-09-19T15:29:40Z",
+      "versionDescription": "MayaIPTV 1.60.0\n\n📺 Android TV : rendu vidéo par le téléviseur (option)\n- Nouveau réglage « Rendu vidéo TV (SurfaceView) » : l'image est confiée au plan vidéo matériel du téléviseur, qui la désentrelace et la met à l'échelle comme le fait VLC. À activer si les chaînes 1080i (sport, infos) laissent des traînées sur les mouvements ou si l'image paraît moins nette qu'ailleurs.\n- Désactivé par défaut ; un volet noir couvre le lecteur jusqu'à la première image.\n\n🔊 Fire TV : le volume de la télécommande refonctionne dans l'application\n- Correction de la régression de la 1.59.0 : les touches Volume de la télécommande Fire TV agissaient partout sauf dans MayaIPTV.\n\n🎬 Lecteur\n- Les commandes se masquent à nouveau d'elles-mêmes après un démarrage lent.\n- Quand le fournisseur refuse un flux, le message dit pourquoi : limite d'écrans simultanés atteinte, ou jeton refusé. Plus de bascule inutile en « mode compatibilité ».\n- Comptes Stalker/MAG : le jeton de lecture est renouvelé avant chaque nouvelle tentative, sur macOS et Windows également.\n\n🔈 Audio mal étiqueté par le fournisseur (macOS, Windows)\n- Certaines chaînes annoncent un codec audio qui n'est pas celui du flux (Dolby annoncé, AAC livré) : l'image se figeait avec une erreur audio. Le lecteur réécrit le flux en local et lit le vrai codec.\n- Si le son de cette variante est inexploitable (livré par blocs de plusieurs dizaines de secondes), la vidéo joue sans son et un bandeau l'explique, au lieu d'un écran figé.\n\n🔐 Connexion plus robuste\n- Une réponse inattendue du serveur (maintenance, page d'erreur) ne déconnecte plus l'application : elle passe hors ligne et conserve votre session.",
+      "downloadURL": "https://mayaiptv.com/dl/ios/v1.60.0?src=sidestore",
+      "size": 23692362,
       "minOSVersion": "15.0",
       "versions": [
+        {
+          "version": "1.60.0",
+          "date": "2026-09-19T15:29:40Z",
+          "localizedDescription": "MayaIPTV 1.60.0\n\n📺 Android TV : rendu vidéo par le téléviseur (option)\n- Nouveau réglage « Rendu vidéo TV (SurfaceView) » : l'image est confiée au plan vidéo matériel du téléviseur, qui la désentrelace et la met à l'échelle comme le fait VLC. À activer si les chaînes 1080i (sport, infos) laissent des traînées sur les mouvements ou si l'image paraît moins nette qu'ailleurs.\n- Désactivé par défaut ; un volet noir couvre le lecteur jusqu'à la première image.\n\n🔊 Fire TV : le volume de la télécommande refonctionne dans l'application\n- Correction de la régression de la 1.59.0 : les touches Volume de la télécommande Fire TV agissaient partout sauf dans MayaIPTV.\n\n🎬 Lecteur\n- Les commandes se masquent à nouveau d'elles-mêmes après un démarrage lent.\n- Quand le fournisseur refuse un flux, le message dit pourquoi : limite d'écrans simultanés atteinte, ou jeton refusé. Plus de bascule inutile en « mode compatibilité ».\n- Comptes Stalker/MAG : le jeton de lecture est renouvelé avant chaque nouvelle tentative, sur macOS et Windows également.\n\n🔈 Audio mal étiqueté par le fournisseur (macOS, Windows)\n- Certaines chaînes annoncent un codec audio qui n'est pas celui du flux (Dolby annoncé, AAC livré) : l'image se figeait avec une erreur audio. Le lecteur réécrit le flux en local et lit le vrai codec.\n- Si le son de cette variante est inexploitable (livré par blocs de plusieurs dizaines de secondes), la vidéo joue sans son et un bandeau l'explique, au lieu d'un écran figé.\n\n🔐 Connexion plus robuste\n- Une réponse inattendue du serveur (maintenance, page d'erreur) ne déconnecte plus l'application : elle passe hors ligne et conserve votre session.",
+          "downloadURL": "https://mayaiptv.com/dl/ios/v1.60.0?src=sidestore",
+          "size": 23692362,
+          "minOSVersion": "15.0"
+        },
         {
           "version": "1.59.0",
           "date": "2026-09-16T17:53:50Z",
@@ -94,14 +102,6 @@
           "localizedDescription": "## 📋 Changements (v1.52.2 → v1.53.0)\n\n### ✨ Nouveautés\n\n- **auth** — vérification e-mail obligatoire + raccourci catégories\n\n### 🐛 Corrections\n\n- **stalker** — charge toutes les pages de films/séries d'une catégorie\n\n---\n**Téléchargements** : `maya-mobile-arm64.apk` (téléphone/tablette), `maya-tv-armv7.apk` (Firestick/box TV), `maya-pc-x86_64.apk` (Android x86/x86_64 — BlissOS, Android-x86, PC), `MayaIPTV-Windows.zip` (PC x64), `MayaIPTV-iOS.ipa` (iPhone — [guide d'installation](https://mayaiptv.com/ios/)).",
           "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.53.0/MayaIPTV-iOS.ipa",
           "size": 23395634,
-          "minOSVersion": "15.0"
-        },
-        {
-          "version": "1.52.2",
-          "date": "2026-08-19T19:40:53Z",
-          "localizedDescription": "## 📋 Changements (v1.52.1 → v1.52.2)\n\n### ✨ Nouveautés\n\n- **catalog** — message clair \"aucune connexion\" sur Films/Séries/Live/Recherche\n\n### 🐛 Corrections\n\n- **email** — les e-mails de vérification arrivent bien (fin des spams)\n- **comptes** — efface les données de l'ancien compte au changement de compte (fin du lag/crash)\n\n---\n**Téléchargements** : `maya-mobile-arm64.apk` (téléphone/tablette), `maya-tv-armv7.apk` (Firestick/box TV), `maya-pc-x86_64.apk` (Android x86/x86_64 — BlissOS, Android-x86, PC), `MayaIPTV-Windows.zip` (PC x64), `MayaIPTV-iOS.ipa` (iPhone — [guide d'installation](https://mayaiptv.com/ios/)).",
-          "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.52.2/MayaIPTV-iOS.ipa",
-          "size": 23391861,
           "minOSVersion": "15.0"
         }
       ],
