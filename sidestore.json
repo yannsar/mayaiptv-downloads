@@ -17,13 +17,21 @@
       "tintColor": "#7C6FF0",
       "category": "entertainment",
       "screenshots": [],
-      "version": "1.60.0",
-      "versionDate": "2026-09-19T15:29:40Z",
-      "versionDescription": "MayaIPTV 1.60.0\n\n📺 Android TV : rendu vidéo par le téléviseur (option)\n- Nouveau réglage « Rendu vidéo TV (SurfaceView) » : l'image est confiée au plan vidéo matériel du téléviseur, qui la désentrelace et la met à l'échelle comme le fait VLC. À activer si les chaînes 1080i (sport, infos) laissent des traînées sur les mouvements ou si l'image paraît moins nette qu'ailleurs.\n- Désactivé par défaut ; un volet noir couvre le lecteur jusqu'à la première image.\n\n🔊 Fire TV : le volume de la télécommande refonctionne dans l'application\n- Correction de la régression de la 1.59.0 : les touches Volume de la télécommande Fire TV agissaient partout sauf dans MayaIPTV.\n\n🎬 Lecteur\n- Les commandes se masquent à nouveau d'elles-mêmes après un démarrage lent.\n- Quand le fournisseur refuse un flux, le message dit pourquoi : limite d'écrans simultanés atteinte, ou jeton refusé. Plus de bascule inutile en « mode compatibilité ».\n- Comptes Stalker/MAG : le jeton de lecture est renouvelé avant chaque nouvelle tentative, sur macOS et Windows également.\n\n🔈 Audio mal étiqueté par le fournisseur (macOS, Windows)\n- Certaines chaînes annoncent un codec audio qui n'est pas celui du flux (Dolby annoncé, AAC livré) : l'image se figeait avec une erreur audio. Le lecteur réécrit le flux en local et lit le vrai codec.\n- Si le son de cette variante est inexploitable (livré par blocs de plusieurs dizaines de secondes), la vidéo joue sans son et un bandeau l'explique, au lieu d'un écran figé.\n\n🔐 Connexion plus robuste\n- Une réponse inattendue du serveur (maintenance, page d'erreur) ne déconnecte plus l'application : elle passe hors ligne et conserve votre session.",
-      "downloadURL": "https://mayaiptv.com/dl/ios/v1.60.0?src=sidestore",
-      "size": 23692362,
+      "version": "1.61.0",
+      "versionDate": "2026-09-20T11:49:50Z",
+      "versionDescription": "MayaIPTV 1.61.0\n\n📋 Playlists M3U\n- Nouveau type de connexion « Playlist M3U », en tête du sélecteur : collez le lien de votre fichier .m3u ou .m3u8, c'est tout. Les chaînes en direct apparaissent groupées par catégorie, avec leurs logos et les compteurs.\n- Chaînes en direct uniquement pour l'instant (pas de films ni de séries, pas de guide des programmes sur ce type). Les entrées YouTube ou Dailymotion d'une playlist sont ignorées, aucun lecteur ne pouvant les lire.\n- Fonctionne sur toutes les plateformes, à la télécommande comme à la souris.\n\n🔌 Fournisseur injoignable : un message clair\n- Quand votre fournisseur ne répond pas ou met trop de temps, l'application le dit tel quel (« serveur injoignable », « délai dépassé ») au lieu d'un message d'erreur générique, et n'insiste plus inutilement.\n\n⚙️ Moins de requêtes, plus de fluidité\n- Les catégories masquées sont enregistrées en une fois quand vous avez fini de cocher, au lieu d'une sauvegarde par case : fini les erreurs « serveur occupé » pendant le tri.\n- La progression de lecture n'est plus envoyée en double après un changement de décodeur ou une reprise.",
+      "downloadURL": "https://mayaiptv.com/dl/ios/v1.61.0?src=sidestore",
+      "size": 23699358,
       "minOSVersion": "15.0",
       "versions": [
+        {
+          "version": "1.61.0",
+          "date": "2026-09-20T11:49:50Z",
+          "localizedDescription": "MayaIPTV 1.61.0\n\n📋 Playlists M3U\n- Nouveau type de connexion « Playlist M3U », en tête du sélecteur : collez le lien de votre fichier .m3u ou .m3u8, c'est tout. Les chaînes en direct apparaissent groupées par catégorie, avec leurs logos et les compteurs.\n- Chaînes en direct uniquement pour l'instant (pas de films ni de séries, pas de guide des programmes sur ce type). Les entrées YouTube ou Dailymotion d'une playlist sont ignorées, aucun lecteur ne pouvant les lire.\n- Fonctionne sur toutes les plateformes, à la télécommande comme à la souris.\n\n🔌 Fournisseur injoignable : un message clair\n- Quand votre fournisseur ne répond pas ou met trop de temps, l'application le dit tel quel (« serveur injoignable », « délai dépassé ») au lieu d'un message d'erreur générique, et n'insiste plus inutilement.\n\n⚙️ Moins de requêtes, plus de fluidité\n- Les catégories masquées sont enregistrées en une fois quand vous avez fini de cocher, au lieu d'une sauvegarde par case : fini les erreurs « serveur occupé » pendant le tri.\n- La progression de lecture n'est plus envoyée en double après un changement de décodeur ou une reprise.",
+          "downloadURL": "https://mayaiptv.com/dl/ios/v1.61.0?src=sidestore",
+          "size": 23699358,
+          "minOSVersion": "15.0"
+        },
         {
           "version": "1.60.0",
           "date": "2026-09-19T15:29:40Z",
@@ -94,14 +102,6 @@
           "localizedDescription": "## 📋 Changements (v1.53.0 → v1.54.0)\n\n### ✨ Nouveautés\n\n- **epg** — indicateur replay/catchup dans la timeline du guide [NON TESTÉ]\n- **downloads** — afficher le % de téléchargement pendant le DL\n- **airplay** — AirPlay iOS via AVPlayer + réutilisation du proxy HLS\n- **cast** — AC-3 passthrough (A_AC3) dans le muxeur MKV\n- **cast** — déclenchement auto du muxeur MKV par castMode + auto en défaut\n- **cast** — Phase 2 — MP2→AAC transcodé injecté dans le muxeur MKV\n- **cast** — muxeur TS→MKV live (Phase 1) — chaînes entrelacées/TS castables\n- **cast** — instrumentation MEDIA_STATUS (CAST-DIAG) + déclencheur transcode .ts\n- **cast** — overlay — état \"Incompatible (entrelacé)\" distinct du transcode\n- **cast** — retry proxy sur 503 (recouvrement de connexion local→cast)\n- **cast** — Lot 4 — transcode audio aussi sur le chemin HLS-passthrough\n- **cast** — Lot 4 — wiring live du transcode audio MP2→AAC (par segment)\n- **cast** — Lot 4 brique 3b — remuxer TS audio (MP2→AAC) VALIDÉ ffprobe\n- **cast** — Lot 4 brique 3b (step 1) — CRC-32 MPEG + auto-check PMT validés\n- **cast** — Lot 4 brique 3a VALIDÉE — encode PCM→AAC-LC (MediaCodec/ADTS)\n- **cast** — Lot 4 brique 2 VALIDÉE — extracteur audio ES depuis le TS\n- **cast** — Lot 4 brique 1 — décodeur MP2 natif (minimp3) → WAV\n- **cast** — check MediaCodecList audio (décodeur MP2 + encodeur AAC) — pré-Lot 4\n- **cast** — §1 gating par capac",
           "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.54.0/MayaIPTV-iOS.ipa",
           "size": 23471693,
-          "minOSVersion": "15.0"
-        },
-        {
-          "version": "1.53.0",
-          "date": "2026-08-22T09:44:24Z",
-          "localizedDescription": "## 📋 Changements (v1.52.2 → v1.53.0)\n\n### ✨ Nouveautés\n\n- **auth** — vérification e-mail obligatoire + raccourci catégories\n\n### 🐛 Corrections\n\n- **stalker** — charge toutes les pages de films/séries d'une catégorie\n\n---\n**Téléchargements** : `maya-mobile-arm64.apk` (téléphone/tablette), `maya-tv-armv7.apk` (Firestick/box TV), `maya-pc-x86_64.apk` (Android x86/x86_64 — BlissOS, Android-x86, PC), `MayaIPTV-Windows.zip` (PC x64), `MayaIPTV-iOS.ipa` (iPhone — [guide d'installation](https://mayaiptv.com/ios/)).",
-          "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.53.0/MayaIPTV-iOS.ipa",
-          "size": 23395634,
           "minOSVersion": "15.0"
         }
       ],
