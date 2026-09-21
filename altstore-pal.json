@@ -1,0 +1,53 @@
+{
+  "name": "Maya IPTV",
+  "identifier": "com.mayaiptv.source.pal",
+  "subtitle": "Le lecteur IPTV premium, gratuit.",
+  "description": "Source officielle Maya IPTV pour AltStore PAL (Union européenne). Ajoutez cette source une fois : les mises à jour notarisées par Apple arrivent ensuite automatiquement.",
+  "iconURL": "https://raw.githubusercontent.com/yannsar/mayaiptv-downloads/main/sidestore/icon.png",
+  "website": "https://mayaiptv.com/",
+  "tintColor": "#7C6FF0",
+  "apps": [
+    {
+      "name": "MayaIPTV",
+      "bundleIdentifier": "com.mayaiptv.client",
+      "marketplaceID": "6812087001",
+      "developerName": "Maya IPTV",
+      "subtitle": "TV en direct, films, séries et sport.",
+      "localizedDescription": "Maya IPTV lit ton abonnement Xtream, Stalker ou M3U : chaînes en direct avec guide des programmes (EPG), films et séries présentés comme une vraie vidéothèque, scores de foot, basket et tennis en temps réel, Chromecast et sous-titres automatiques.\n\nMaya IPTV est un lecteur : il ne fournit aucun contenu ni abonnement. Tu as besoin de ton propre abonnement IPTV pour te connecter.",
+      "iconURL": "https://raw.githubusercontent.com/yannsar/mayaiptv-downloads/main/sidestore/icon.png",
+      "tintColor": "#7C6FF0",
+      "category": "entertainment",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "1.61.0",
+          "buildVersion": "8160",
+          "date": "2026-09-20T11:49:50Z",
+          "localizedDescription": "MayaIPTV 1.61.0\n\n📋 Playlists M3U\n- Nouveau type de connexion « Playlist M3U », en tête du sélecteur : collez le lien de votre fichier .m3u ou .m3u8, c'est tout. Les chaînes en direct apparaissent groupées par catégorie, avec leurs logos et les compteurs.\n- Chaînes en direct uniquement pour l'instant (pas de films ni de séries, pas de guide des programmes sur ce type). Les entrées YouTube ou Dailymotion d'une playlist sont ignorées, aucun lecteur ne pouvant les lire.\n- Fonctionne sur toutes les plateformes, à la télécommande comme à la souris.\n\n🔌 Fournisseur injoignable : un message clair\n- Quand votre fournisseur ne répond pas ou met trop de temps, l'application le dit tel quel (« serveur injoignable », « délai dépassé ») au lieu d'un message d'erreur générique, et n'insiste plus inutilement.\n\n⚙️ Moins de requêtes, plus de fluidité\n- Les catégories masquées sont enregistrées en une fois quand vous avez fini de cocher, au lieu d'une sauvegarde par case : fini les erreurs « serveur occupé » pendant le tri.\n- La progression de lecture n'est plus envoyée en double après un changement de décodeur ou une reprise.",
+          "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.61.0/manifest.json",
+          "assetURLs": {
+            "manifest": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.61.0/manifest.json",
+            "signature": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.61.0/signature",
+            "0f571559-a114-3749-8dde-3194220724cf": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.61.0/0f571559-a114-3749-8dde-3194220724cf.ipa",
+            "3b43a199-29a7-3df6-8f00-625d9f7faea6": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.61.0/3b43a199-29a7-3df6-8f00-625d9f7faea6.ipa",
+            "3de5332f-dbcd-3a23-9b9a-5661fc86117b": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.61.0/3de5332f-dbcd-3a23-9b9a-5661fc86117b.ipa",
+            "4b08344e-d46a-3893-8ef2-ed5dd74585b5": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.61.0/4b08344e-d46a-3893-8ef2-ed5dd74585b5.ipa",
+            "7d758caa-7a52-3f6a-b38b-943e7d8a39be": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.61.0/7d758caa-7a52-3f6a-b38b-943e7d8a39be.ipa",
+            "a0d1d0b4-d602-3b62-8f21-90c04c1c1d9b": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.61.0/a0d1d0b4-d602-3b62-8f21-90c04c1c1d9b.ipa",
+            "bc081935-f92e-31e4-99bf-cf136e9a491d": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.61.0/bc081935-f92e-31e4-99bf-cf136e9a491d.ipa",
+            "e0e6cfc1-fa03-3aa7-aed4-826a7e28acc4": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.61.0/e0e6cfc1-fa03-3aa7-aed4-826a7e28acc4.ipa"
+          },
+          "size": 22580669,
+          "minOSVersion": "17.4"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Maya IPTV recherche les appareils Chromecast sur ton réseau local pour diffuser tes contenus."
+        }
+      }
+    }
+  ],
+  "news": []
+}
