@@ -21,7 +21,7 @@
       "versionDate": "2026-09-22T13:55:53Z",
       "versionDescription": "MayaIPTV 1.62.0\n\n🍎 iPhone 17 et iOS 27 : l'application se lance à nouveau\n- Sur iOS 27, l'application s'installait mais ne s'ouvrait pas : Apple impose désormais un nouveau cycle de vie aux applications compilées avec ses derniers outils. C'est corrigé, pour AltStore PAL comme pour SideStore. Rien ne change sur iOS 26 et avant.\n\n🎬 Films dans les playlists M3U\n- Les fichiers vidéo d'une playlist (.mp4, .mkv, .avi…) apparaissent dans l'onglet Films, classés par catégorie, avec fiche, reprise de lecture et « Continuer ». Les chaînes restent dans Live. Une playlist n'a pas de séries ni de guide des programmes pour l'instant.\n- Un lien de playlist mort est signalé comme tel au lieu d'un « connexion impossible ».\n\n🛡️ Démarrage plus robuste\n- Sur macOS, un trousseau qui refuse de livrer la session ne fait plus planter l'application au lancement : elle propose simplement de se reconnecter.\n- L'écran d'accueil mentionne les playlists M3U parmi les types de connexion.",
       "downloadURL": "https://mayaiptv.com/dl/ios/v1.62.0?src=sidestore",
-      "size": 23708732,
+      "size": 23704481,
       "minOSVersion": "15.0",
       "versions": [
         {
@@ -29,7 +29,7 @@
           "date": "2026-09-22T13:55:53Z",
           "localizedDescription": "MayaIPTV 1.62.0\n\n🍎 iPhone 17 et iOS 27 : l'application se lance à nouveau\n- Sur iOS 27, l'application s'installait mais ne s'ouvrait pas : Apple impose désormais un nouveau cycle de vie aux applications compilées avec ses derniers outils. C'est corrigé, pour AltStore PAL comme pour SideStore. Rien ne change sur iOS 26 et avant.\n\n🎬 Films dans les playlists M3U\n- Les fichiers vidéo d'une playlist (.mp4, .mkv, .avi…) apparaissent dans l'onglet Films, classés par catégorie, avec fiche, reprise de lecture et « Continuer ». Les chaînes restent dans Live. Une playlist n'a pas de séries ni de guide des programmes pour l'instant.\n- Un lien de playlist mort est signalé comme tel au lieu d'un « connexion impossible ».\n\n🛡️ Démarrage plus robuste\n- Sur macOS, un trousseau qui refuse de livrer la session ne fait plus planter l'application au lancement : elle propose simplement de se reconnecter.\n- L'écran d'accueil mentionne les playlists M3U parmi les types de connexion.",
           "downloadURL": "https://mayaiptv.com/dl/ios/v1.62.0?src=sidestore",
-          "size": 23708732,
+          "size": 23704481,
           "minOSVersion": "15.0"
         },
         {
