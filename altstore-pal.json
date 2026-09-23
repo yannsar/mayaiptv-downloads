@@ -20,6 +20,27 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "1.62.0",
+          "buildVersion": "8162",
+          "date": "2026-09-23T07:09:10Z",
+          "localizedDescription": "MayaIPTV 1.62.0\n\n🍎 iPhone 17 et iOS 27 : l'application se lance à nouveau\n- Sur iOS 27, l'application s'installait mais ne s'ouvrait pas : Apple impose désormais un nouveau cycle de vie aux applications compilées avec ses derniers outils. C'est corrigé, pour AltStore PAL comme pour SideStore. Rien ne change sur iOS 26 et avant.\n\n🎬 Films dans les playlists M3U\n- Les fichiers vidéo d'une playlist (.mp4, .mkv, .avi…) apparaissent dans l'onglet Films, classés par catégorie, avec fiche, reprise de lecture et « Continuer ». Les chaînes restent dans Live. Une playlist n'a pas de séries ni de guide des programmes pour l'instant.\n- Un lien de playlist mort est signalé comme tel au lieu d'un « connexion impossible ».\n\n🛡️ Démarrage plus robuste\n- Sur macOS, un trousseau qui refuse de livrer la session ne fait plus planter l'application au lancement : elle propose simplement de se reconnecter.\n- L'écran d'accueil mentionne les playlists M3U parmi les types de connexion.",
+          "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.62.0/manifest.json",
+          "assetURLs": {
+            "manifest": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.62.0/manifest.json",
+            "signature": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.62.0/signature",
+            "05fbd005-4fa9-3af5-9adc-38a4024c5ed1": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.62.0/05fbd005-4fa9-3af5-9adc-38a4024c5ed1.ipa",
+            "94b4943a-1d56-300a-9413-dea16e3a1c54": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.62.0/94b4943a-1d56-300a-9413-dea16e3a1c54.ipa",
+            "9e8374c1-55de-34ad-80b9-23c4e5f2b74e": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.62.0/9e8374c1-55de-34ad-80b9-23c4e5f2b74e.ipa",
+            "a379be1c-f9f6-322a-aeb0-5976d00108a9": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.62.0/a379be1c-f9f6-322a-aeb0-5976d00108a9.ipa",
+            "a76f33ab-e60a-3dcb-8265-77fdddfc0b65": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.62.0/a76f33ab-e60a-3dcb-8265-77fdddfc0b65.ipa",
+            "b0dde614-ff26-3913-9dee-b33b9b7e6715": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.62.0/b0dde614-ff26-3913-9dee-b33b9b7e6715.ipa",
+            "db1998c4-7db6-37b6-821e-5f58a1625672": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.62.0/db1998c4-7db6-37b6-821e-5f58a1625672.ipa",
+            "dd646fc8-8e09-3758-a112-06feacf3db86": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.62.0/dd646fc8-8e09-3758-a112-06feacf3db86.ipa"
+          },
+          "size": 22577021,
+          "minOSVersion": "17.4"
+        },
+        {
           "version": "1.61.0",
           "buildVersion": "8160",
           "date": "2026-09-20T11:49:50Z",
