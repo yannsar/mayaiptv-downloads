@@ -17,13 +17,21 @@
       "tintColor": "#7C6FF0",
       "category": "entertainment",
       "screenshots": [],
-      "version": "1.62.0",
-      "versionDate": "2026-09-22T13:55:53Z",
-      "versionDescription": "MayaIPTV 1.62.0\n\n🍎 iPhone 17 et iOS 27 : l'application se lance à nouveau\n- Sur iOS 27, l'application s'installait mais ne s'ouvrait pas : Apple impose désormais un nouveau cycle de vie aux applications compilées avec ses derniers outils. C'est corrigé, pour AltStore PAL comme pour SideStore. Rien ne change sur iOS 26 et avant.\n\n🎬 Films dans les playlists M3U\n- Les fichiers vidéo d'une playlist (.mp4, .mkv, .avi…) apparaissent dans l'onglet Films, classés par catégorie, avec fiche, reprise de lecture et « Continuer ». Les chaînes restent dans Live. Une playlist n'a pas de séries ni de guide des programmes pour l'instant.\n- Un lien de playlist mort est signalé comme tel au lieu d'un « connexion impossible ».\n\n🛡️ Démarrage plus robuste\n- Sur macOS, un trousseau qui refuse de livrer la session ne fait plus planter l'application au lancement : elle propose simplement de se reconnecter.\n- L'écran d'accueil mentionne les playlists M3U parmi les types de connexion.",
-      "downloadURL": "https://mayaiptv.com/dl/ios/v1.62.0?src=sidestore",
-      "size": 23704481,
+      "version": "1.63.0",
+      "versionDate": "2026-09-28T20:30:55Z",
+      "versionDescription": "Sous-titres OpenSubtitles sans configuration - La recherche de sous-titres fonctionne dès l'installation : l'application embarque désormais sa propre clé OpenSubtitles. Plus besoin de créer une clé API sur opensubtitles.com. - Un compte OpenSubtitles reste possible, en option, pour un quota de téléchargements plus élevé.\n\nFavoris\n- Quand une chaîne est lancée depuis les favoris, la liste de zapping du lecteur affiche les favoris, et non toutes les chaînes, et le reste après chaque changement de chaîne.\n- Les logos des chaînes favorites s'affichent en entier.\n\niOS\n- La mise à jour proposée dans l'application renvoie vers AltStore PAL ou SideStore selon la source d'installation.",
+      "downloadURL": "https://mayaiptv.com/dl/ios/v1.63.0?src=sidestore",
+      "size": 23707417,
       "minOSVersion": "15.0",
       "versions": [
+        {
+          "version": "1.63.0",
+          "date": "2026-09-28T20:30:55Z",
+          "localizedDescription": "Sous-titres OpenSubtitles sans configuration - La recherche de sous-titres fonctionne dès l'installation : l'application embarque désormais sa propre clé OpenSubtitles. Plus besoin de créer une clé API sur opensubtitles.com. - Un compte OpenSubtitles reste possible, en option, pour un quota de téléchargements plus élevé.\n\nFavoris\n- Quand une chaîne est lancée depuis les favoris, la liste de zapping du lecteur affiche les favoris, et non toutes les chaînes, et le reste après chaque changement de chaîne.\n- Les logos des chaînes favorites s'affichent en entier.\n\niOS\n- La mise à jour proposée dans l'application renvoie vers AltStore PAL ou SideStore selon la source d'installation.",
+          "downloadURL": "https://mayaiptv.com/dl/ios/v1.63.0?src=sidestore",
+          "size": 23707417,
+          "minOSVersion": "15.0"
+        },
         {
           "version": "1.62.0",
           "date": "2026-09-22T13:55:53Z",
@@ -94,14 +102,6 @@
           "localizedDescription": "## 🐛 Corrections\n\n**Les films et épisodes bloqués se lancent enfin.** Certains titres refusaient de démarrer parce que le fournisseur annonçait un mauvais format de fichier. L'app s'en aperçoit maintenant toute seule et relance dans le bon format — y compris quand vous enchaînez plusieurs films à la suite, le cas qui échouait systématiquement.\n\n**Un message d'erreur trompeur a disparu.** La version précédente pouvait vous dire que la limite de connexions simultanées de votre abonnement était atteinte et vous demander de fermer vos autres appareils, alors que le problème n'avait rien à voir. Toutes nos excuses.\n\n**L'écran de chargement ne reste plus bloqué** après une reprise automatique : la vidéo démarrait bel et bien, mais restait cachée derrière.\n\n## 🔒 Contrôle parental\n\nLes catégories réservées aux adultes ne sont plus listées tant qu'aucun code parental n'est renseigné dans les réglages — pour les films et les séries, comme c'était déjà le cas pour les chaînes en direct. Renseignez un code dans les réglages pour y accéder de nouveau.",
           "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.55.1/MayaIPTV-iOS.ipa",
           "size": 23542294,
-          "minOSVersion": "15.0"
-        },
-        {
-          "version": "1.55.0",
-          "date": "2026-09-02T08:42:48Z",
-          "localizedDescription": "## ✨ Nouveautés\n\n**AirPlay — de l'iPhone vers l'Apple TV.** L'app peut maintenant envoyer un film, un épisode ou une chaîne en direct sur une Apple TV. ⚠️ Fonction toute neuve, pas encore éprouvée sur une vraie Apple TV : vos retours nous aideront.\n\n**Cast Chromecast nettement plus fiable.** Les films MKV qui restaient muets ou refusaient de démarrer se lancent, le direct ne se coupe plus après quelques minutes, et arrêter la lecture depuis la télé est enfin détecté par l'app. Quand un flux ne peut vraiment pas être casté, l'app le dit au lieu de tourner en rond.\n\n## 🐛 Corrections\n\n**Lecteur.** Le bouton « épisode suivant » reste accessible jusqu'au bout de l'épisode, et apparaît sur des séries où il manquait. Quitter un film libère aussitôt la connexion chez le fournisseur — plus d'erreur au lancement du film suivant. Si la limite de connexions simultanées de votre abonnement est atteinte, l'app l'explique clairement au lieu d'afficher un code. Retour à l'écran portrait corrigé en sortant du lecteur, y compris vers un lecteur externe.\n\n**Contenus.** Le code parental est respecté en mode direct Xtream. Les films dont le fournisseur annonce un mauvais format se lisent désormais.\n\n**Connexions.** Les infos du compte — expiration, connexions maximum, statut — s'affichent aussi pour les portails Stalker, comme pour Xtream.\n\n**Téléchargements.** La notification affiche la vraie progression.\n\n## 📖 Site\n\nNouveau guide de configuration passant en revue tous les réglages de l'app, publié dans les 8 langues.",
-          "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.55.0/MayaIPTV-iOS.ipa",
-          "size": 23543915,
           "minOSVersion": "15.0"
         }
       ],
