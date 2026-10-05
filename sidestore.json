@@ -17,13 +17,21 @@
       "tintColor": "#7C6FF0",
       "category": "entertainment",
       "screenshots": [],
-      "version": "1.63.0",
-      "versionDate": "2026-09-28T20:30:55Z",
-      "versionDescription": "Sous-titres OpenSubtitles sans configuration - La recherche de sous-titres fonctionne dès l'installation : l'application embarque désormais sa propre clé OpenSubtitles. Plus besoin de créer une clé API sur opensubtitles.com. - Un compte OpenSubtitles reste possible, en option, pour un quota de téléchargements plus élevé.\n\nFavoris\n- Quand une chaîne est lancée depuis les favoris, la liste de zapping du lecteur affiche les favoris, et non toutes les chaînes, et le reste après chaque changement de chaîne.\n- Les logos des chaînes favorites s'affichent en entier.\n\niOS\n- La mise à jour proposée dans l'application renvoie vers AltStore PAL ou SideStore selon la source d'installation.",
-      "downloadURL": "https://mayaiptv.com/dl/ios/v1.63.0?src=sidestore",
-      "size": 23707417,
+      "version": "1.64.0",
+      "versionDate": "2026-10-05T19:16:20Z",
+      "versionDescription": "Recherche - La recherche vocale lance la recherche intelligente sur la phrase complète dictée. Jusqu'ici elle partait sur un début de phrase tronqué et ne trouvait rien, alors que la même recherche tapée fonctionnait. - Quand aucune correspondance n'est trouvée, le message indique la requête réellement cherchée.\n\nCatégories\n- Un filtre texte sur l'écran des catégories visibles, commun aux onglets Direct, Films et Séries : tapez « FR » pour ne voir que les catégories concernées. « Tout » et « Aucun » n'agissent que sur les catégories filtrées.",
+      "downloadURL": "https://mayaiptv.com/dl/ios/v1.64.0?src=sidestore",
+      "size": 23711418,
       "minOSVersion": "15.0",
       "versions": [
+        {
+          "version": "1.64.0",
+          "date": "2026-10-05T19:16:20Z",
+          "localizedDescription": "Recherche - La recherche vocale lance la recherche intelligente sur la phrase complète dictée. Jusqu'ici elle partait sur un début de phrase tronqué et ne trouvait rien, alors que la même recherche tapée fonctionnait. - Quand aucune correspondance n'est trouvée, le message indique la requête réellement cherchée.\n\nCatégories\n- Un filtre texte sur l'écran des catégories visibles, commun aux onglets Direct, Films et Séries : tapez « FR » pour ne voir que les catégories concernées. « Tout » et « Aucun » n'agissent que sur les catégories filtrées.",
+          "downloadURL": "https://mayaiptv.com/dl/ios/v1.64.0?src=sidestore",
+          "size": 23711418,
+          "minOSVersion": "15.0"
+        },
         {
           "version": "1.63.0",
           "date": "2026-09-28T20:30:55Z",
@@ -94,14 +102,6 @@
           "localizedDescription": "Trois correctifs, surtout pour la télé et les séries.\n\nTélévision et boîtiers Android\nEn quittant une vidéo, l'application basculait en mode portrait : l'image se\nretrouvait à la verticale au milieu de l'écran, avec de grandes bandes noires\nde chaque côté. C'est corrigé, l'interface reste en plein écran paysage. Les\nFirestick n'étaient pas concernées.\n\nSéries\n« Marquer comme terminé » ne faisait rien sur un épisode : l'épisode est\nmaintenant vraiment marqué comme vu, la pastille verte apparaît aussitôt et\nl'état est conservé.\nLa progression et les favoris se rattachaient parfois à une série vide quand\nle catalogue est chargé directement depuis le fournisseur ; ils retrouvent la\nbonne série.",
           "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.55.2/MayaIPTV-iOS.ipa",
           "size": 23544443,
-          "minOSVersion": "15.0"
-        },
-        {
-          "version": "1.55.1",
-          "date": "2026-09-02T10:42:45Z",
-          "localizedDescription": "## 🐛 Corrections\n\n**Les films et épisodes bloqués se lancent enfin.** Certains titres refusaient de démarrer parce que le fournisseur annonçait un mauvais format de fichier. L'app s'en aperçoit maintenant toute seule et relance dans le bon format — y compris quand vous enchaînez plusieurs films à la suite, le cas qui échouait systématiquement.\n\n**Un message d'erreur trompeur a disparu.** La version précédente pouvait vous dire que la limite de connexions simultanées de votre abonnement était atteinte et vous demander de fermer vos autres appareils, alors que le problème n'avait rien à voir. Toutes nos excuses.\n\n**L'écran de chargement ne reste plus bloqué** après une reprise automatique : la vidéo démarrait bel et bien, mais restait cachée derrière.\n\n## 🔒 Contrôle parental\n\nLes catégories réservées aux adultes ne sont plus listées tant qu'aucun code parental n'est renseigné dans les réglages — pour les films et les séries, comme c'était déjà le cas pour les chaînes en direct. Renseignez un code dans les réglages pour y accéder de nouveau.",
-          "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.55.1/MayaIPTV-iOS.ipa",
-          "size": 23542294,
           "minOSVersion": "15.0"
         }
       ],
