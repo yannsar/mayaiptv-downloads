@@ -20,6 +20,27 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "1.63.0",
+          "buildVersion": "8163",
+          "date": "2026-10-05T18:47:50Z",
+          "localizedDescription": "Sous-titres OpenSubtitles sans configuration - La recherche de sous-titres fonctionne dès l'installation : l'application embarque désormais sa propre clé OpenSubtitles. Plus besoin de créer une clé API sur opensubtitles.com. - Un compte OpenSubtitles reste possible, en option, pour un quota de téléchargements plus élevé.\n\nFavoris\n- Quand une chaîne est lancée depuis les favoris, la liste de zapping du lecteur affiche les favoris, et non toutes les chaînes, et le reste après chaque changement de chaîne.\n- Les logos des chaînes favorites s'affichent en entier.\n\niOS\n- La mise à jour proposée dans l'application renvoie vers AltStore PAL ou SideStore selon la source d'installation.",
+          "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.63.0/manifest.json",
+          "assetURLs": {
+            "manifest": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.63.0/manifest.json",
+            "signature": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.63.0/signature",
+            "0e5d7492-974a-3332-9197-d357e922ecf9": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.63.0/0e5d7492-974a-3332-9197-d357e922ecf9.ipa",
+            "12ccf0f1-87e2-3f28-a580-a8fd78ad753d": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.63.0/12ccf0f1-87e2-3f28-a580-a8fd78ad753d.ipa",
+            "19fe461e-749d-384b-a189-11ca9c959c00": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.63.0/19fe461e-749d-384b-a189-11ca9c959c00.ipa",
+            "27ce2a00-108b-3e8b-95b5-6367529bdbce": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.63.0/27ce2a00-108b-3e8b-95b5-6367529bdbce.ipa",
+            "8d29c920-8ae4-3666-894b-a94e720abb2a": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.63.0/8d29c920-8ae4-3666-894b-a94e720abb2a.ipa",
+            "9c51f063-e8ae-308c-8558-9aa6d7ce619d": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.63.0/9c51f063-e8ae-308c-8558-9aa6d7ce619d.ipa",
+            "e0e6f39d-e76e-3ba0-983a-6b4b0cd75c73": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.63.0/e0e6f39d-e76e-3ba0-983a-6b4b0cd75c73.ipa",
+            "e2801388-2be7-3e3b-8bc3-cf61ab829d8b": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.63.0/e2801388-2be7-3e3b-8bc3-cf61ab829d8b.ipa"
+          },
+          "size": 22579873,
+          "minOSVersion": "17.4"
+        },
+        {
           "version": "1.62.0",
           "buildVersion": "8162",
           "date": "2026-09-23T07:09:10Z",
