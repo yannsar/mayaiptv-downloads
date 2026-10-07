@@ -17,13 +17,21 @@
       "tintColor": "#7C6FF0",
       "category": "entertainment",
       "screenshots": [],
-      "version": "1.64.0",
-      "versionDate": "2026-10-05T19:16:20Z",
-      "versionDescription": "Recherche - La recherche vocale lance la recherche intelligente sur la phrase complète dictée. Jusqu'ici elle partait sur un début de phrase tronqué et ne trouvait rien, alors que la même recherche tapée fonctionnait. - Quand aucune correspondance n'est trouvée, le message indique la requête réellement cherchée.\n\nCatégories\n- Un filtre texte sur l'écran des catégories visibles, commun aux onglets Direct, Films et Séries : tapez « FR » pour ne voir que les catégories concernées. « Tout » et « Aucun » n'agissent que sur les catégories filtrées.",
-      "downloadURL": "https://mayaiptv.com/dl/ios/v1.64.0?src=sidestore",
-      "size": 23711418,
+      "version": "1.65.0",
+      "versionDate": "2026-10-07T17:08:42Z",
+      "versionDescription": "Maya IPTV 1.65.0 — sous-titres qui se synchronisent seuls, aperçu des chaînes, alerte d'abonnement\n\nSous-titres\n- Synchronisation automatique : pendant la lecture, Maya écoute la bande-son, repère la parole et recale le sous-titre externe tout seul, en silence, y compris quand il dérive au fil du film (sous-titre 25 i/s sur un film 23,976). Disponible sur Android, Windows et macOS (sur Mac, une autorisation « Enregistrement audio du système » est demandée une fois : seul le son que l'app joue est analysé, rien n'est enregistré ni envoyé). Le bouton « Synchro auto » reste là pour reprendre la main après un réglage manuel.\n- Le décalage réglé est mémorisé par film ou épisode et réappliqué à la reprise.\n- La recherche OpenSubtitles met en tête les sous-titres faits pour votre fichier exact (badge « synchronisé avec votre fichier »).\n\nDirect\n- Aperçu des chaînes : survolez une chaîne à la souris (Windows, macOS) ou laissez le focus de la télécommande dessus (Android TV, Fire TV) et elle se lance dans sa vignette. Réglage « Aperçu des chaînes » dans les Paramètres.\n\nAbonnements\n- Alerte d'expiration : Maya surveille la date de fin de vos abonnements Xtream et Stalker et vous prévient 7 jours, 3 jours et la veille, avec une pastille sur la connexion et une notification sur mobile.\n\nDivers\n- « Soutenir le projet » dans les Paramètres (page Ko-fi), hors versions store. L'application est gratuite et le reste.\n- Reprise d'un film commencé sur un autre appareil : un sous-titre absent de cet appareil n'est plus signalé comme une erreur de lecture.\n- Les téléchargements sont plus volumineux (détection de parole embarquée) : environ 18 Mo de plus sur Android, 44 Mo sur macOS.",
+      "downloadURL": "https://mayaiptv.com/dl/ios/v1.65.0?src=sidestore",
+      "size": 30519602,
       "minOSVersion": "15.0",
       "versions": [
+        {
+          "version": "1.65.0",
+          "date": "2026-10-07T17:08:42Z",
+          "localizedDescription": "Maya IPTV 1.65.0 — sous-titres qui se synchronisent seuls, aperçu des chaînes, alerte d'abonnement\n\nSous-titres\n- Synchronisation automatique : pendant la lecture, Maya écoute la bande-son, repère la parole et recale le sous-titre externe tout seul, en silence, y compris quand il dérive au fil du film (sous-titre 25 i/s sur un film 23,976). Disponible sur Android, Windows et macOS (sur Mac, une autorisation « Enregistrement audio du système » est demandée une fois : seul le son que l'app joue est analysé, rien n'est enregistré ni envoyé). Le bouton « Synchro auto » reste là pour reprendre la main après un réglage manuel.\n- Le décalage réglé est mémorisé par film ou épisode et réappliqué à la reprise.\n- La recherche OpenSubtitles met en tête les sous-titres faits pour votre fichier exact (badge « synchronisé avec votre fichier »).\n\nDirect\n- Aperçu des chaînes : survolez une chaîne à la souris (Windows, macOS) ou laissez le focus de la télécommande dessus (Android TV, Fire TV) et elle se lance dans sa vignette. Réglage « Aperçu des chaînes » dans les Paramètres.\n\nAbonnements\n- Alerte d'expiration : Maya surveille la date de fin de vos abonnements Xtream et Stalker et vous prévient 7 jours, 3 jours et la veille, avec une pastille sur la connexion et une notification sur mobile.\n\nDivers\n- « Soutenir le projet » dans les Paramètres (page Ko-fi), hors versions store. L'application est gratuite et le reste.\n- Reprise d'un film commencé sur un autre appareil : un sous-titre absent de cet appareil n'est plus signalé comme une erreur de lecture.\n- Les téléchargements sont plus volumineux (détection de parole embarquée) : environ 18 Mo de plus sur Android, 44 Mo sur macOS.",
+          "downloadURL": "https://mayaiptv.com/dl/ios/v1.65.0?src=sidestore",
+          "size": 30519602,
+          "minOSVersion": "15.0"
+        },
         {
           "version": "1.64.0",
           "date": "2026-10-05T19:16:20Z",
@@ -94,14 +102,6 @@
           "localizedDescription": "Maya IPTV 1.56.0 — catalogue plus propre, onglets instantanés, recherche et guide TV plus fiables\n\nCatalogue\n- Titres nettoyés partout, y compris les préfixes des portails Stalker (« 4K-FR - », « AMZ - », « VIP: »…) et les classements « TOP 250 ».\n- Les doublons de chaînes (« 6 TER » et « 6TER », « 13 EME RUE » et « 13EME Rue ») ne font plus qu'une carte ; deux flux au même nom sont numérotés dans le sélecteur, avec leur codec.\n- Les fausses chaînes « ### … » qui ouvraient chaque catégorie ont disparu.\n- Le nombre d'éléments s'affiche dans l'en-tête : « Films (46 577) », par catégorie aussi, sur Live, Films et Séries.\n- Changer de catégorie n'interroge plus le fournisseur à chaque fois.\n\nVitesse\n- Live TV, Films et Séries se préchargent après l'accueil : plus de spinner au premier tap.\n- Le guide TV ne martèle plus le serveur : cache par chaîne, débit plafonné, reprise automatique après une limitation. Fini les guides vides ou troués.\n\nRecherche\n- La recherche IA ne reste plus bloquée sur des résultats génériques quand le quota est atteint, et vérifie l'année du film.\n- Un résultat groupé ouvre le sélecteur de flux au lieu de lancer la première variante en silence.\n\nLecteur\n- Plus d'écran à moitié blanc après un Back rapide en sortant d'une vidéo (téléphone).\n- Le badge MULTI ne recouvre plus la note quand le titre est long.\n\nDivers\n- Une question, une seule fois, à la deuxième ouverture : « Comment as-tu connu Maya IPTV ? ». Passer est possible.\n- Un épisode coché « terminé » peut être remis en « non vu ».\n- OpenSubtitles reste activé après une réinstallation.\n- Correction d'une erreur silencieuse au chargement de l'accueil pendant la restauration de connexion.",
           "downloadURL": "https://mayaiptv.com/dl/ios/v1.56.0?src=sidestore",
           "size": 23575417,
-          "minOSVersion": "15.0"
-        },
-        {
-          "version": "1.55.2",
-          "date": "2026-09-02T22:01:36Z",
-          "localizedDescription": "Trois correctifs, surtout pour la télé et les séries.\n\nTélévision et boîtiers Android\nEn quittant une vidéo, l'application basculait en mode portrait : l'image se\nretrouvait à la verticale au milieu de l'écran, avec de grandes bandes noires\nde chaque côté. C'est corrigé, l'interface reste en plein écran paysage. Les\nFirestick n'étaient pas concernées.\n\nSéries\n« Marquer comme terminé » ne faisait rien sur un épisode : l'épisode est\nmaintenant vraiment marqué comme vu, la pastille verte apparaît aussitôt et\nl'état est conservé.\nLa progression et les favoris se rattachaient parfois à une série vide quand\nle catalogue est chargé directement depuis le fournisseur ; ils retrouvent la\nbonne série.",
-          "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.55.2/MayaIPTV-iOS.ipa",
-          "size": 23544443,
           "minOSVersion": "15.0"
         }
       ],
