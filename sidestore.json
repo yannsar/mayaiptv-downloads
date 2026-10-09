@@ -17,13 +17,21 @@
       "tintColor": "#7C6FF0",
       "category": "entertainment",
       "screenshots": [],
-      "version": "1.65.1",
-      "versionDate": "2026-10-08T08:14:37Z",
-      "versionDescription": "Maya IPTV 1.65.1 — correctif du plantage au lancement sur Android TV\n\n- Corrige le plantage au démarrage de la 1.65.0 sur certaines box et TV Android 32 bits (Freebox, TV Android 11, Fire TV Stick) : le détecteur de parole des sous-titres provoquait une erreur dans la bibliothèque native au moment de son chargement. Il est désormais chargé uniquement au premier besoin, depuis un fichier, et se désactive de lui-même si l'appareil ne le supporte pas (le détecteur de base prend alors le relais).\n- Alerte d'expiration : un abonnement « illimité » n'est plus annoncé comme expiré (certains portails renvoient une date vide), et le nombre de jours restants s'affiche correctement dans la bannière. Sur TV, l'alerte reste une bannière à l'ouverture, sans notification programmée.\n- Rien d'autre ne change par rapport à la 1.65.0.",
-      "downloadURL": "https://mayaiptv.com/dl/ios/v1.65.1?src=sidestore",
-      "size": 30526183,
+      "version": "1.65.2",
+      "versionDate": "2026-10-09T14:28:16Z",
+      "versionDescription": "Correctifs 1.65.2\n\nStabilité\n- Fire TV, Freebox et autres box Android 32 bits : l'application ne plante plus au démarrage de la première lecture. Sur ces appareils, la synchronisation automatique des sous-titres s'appuie désormais sur le détecteur de parole léger.\n\nLecture\n- « Continuer » : reprendre un épisode depuis l'accueil ne renvoie plus « accès refusé par le fournisseur (401) » ; la lecture démarre comme depuis la fiche de la série.\n\nInterface\n- L'alerte d'expiration d'abonnement se referme d'elle-même après dix secondes, au lieu de rester affichée et de masquer les commandes du lecteur.",
+      "downloadURL": "https://mayaiptv.com/dl/ios/v1.65.2?src=sidestore",
+      "size": 30525537,
       "minOSVersion": "15.0",
       "versions": [
+        {
+          "version": "1.65.2",
+          "date": "2026-10-09T14:28:16Z",
+          "localizedDescription": "Correctifs 1.65.2\n\nStabilité\n- Fire TV, Freebox et autres box Android 32 bits : l'application ne plante plus au démarrage de la première lecture. Sur ces appareils, la synchronisation automatique des sous-titres s'appuie désormais sur le détecteur de parole léger.\n\nLecture\n- « Continuer » : reprendre un épisode depuis l'accueil ne renvoie plus « accès refusé par le fournisseur (401) » ; la lecture démarre comme depuis la fiche de la série.\n\nInterface\n- L'alerte d'expiration d'abonnement se referme d'elle-même après dix secondes, au lieu de rester affichée et de masquer les commandes du lecteur.",
+          "downloadURL": "https://mayaiptv.com/dl/ios/v1.65.2?src=sidestore",
+          "size": 30525537,
+          "minOSVersion": "15.0"
+        },
         {
           "version": "1.65.1",
           "date": "2026-10-08T08:14:37Z",
@@ -94,14 +102,6 @@
           "localizedDescription": "Maya IPTV 1.58.0 — Maya arrive sur Mac, démarrage soigné, connexions plus claires\n\nMac\n- Maya IPTV est disponible sur Mac : Apple Silicon et Intel, à partir de macOS 11.\n- Installation classique : on télécharge, on glisse dans Applications, on ouvre. Aucun avertissement de sécurité, l'app est signée et validée par Apple.\n- Les mêmes fonctions que sur Windows : souris et clavier, plein écran, et une mini-fenêtre Picture-in-Picture pour garder la vidéo dans un coin de l'écran.\n\nDémarrage\n- L'écran de lancement affiche le logo sur fond sombre, sur iPhone comme sur Android : fini le flash blanc à l'ouverture.\n- Sur iPhone, l'autorisation de notifications n'est plus demandée dès l'ouverture mais au moment où elle sert.\n\nConnexions\n- Quand un fournisseur est injoignable parce que le réseau ou le DNS le redirige, l'app le dit clairement au lieu d'annoncer « identifiants invalides ».\n- Des fournisseurs parfaitement valides étaient refusés à l'ajout d'une connexion à cause d'une particularité DNS de leur côté : ils passent désormais.\n\nCoulisses\n- Mémoire du serveur fortement réduite sur le guide TV : fini les redémarrages en boucle et les guides vides qui allaient avec.\n- Le cache des portails Stalker est purgé régulièrement au lieu de grossir sans fin.",
           "downloadURL": "https://mayaiptv.com/dl/ios/v1.58.0?src=sidestore",
           "size": 23682889,
-          "minOSVersion": "15.0"
-        },
-        {
-          "version": "1.57.0",
-          "date": "2026-09-11T22:11:20Z",
-          "localizedDescription": "Maya IPTV 1.57.0 — Rugby, Fire TV plus fluide, rappels de match à la télécommande\n\nSport\n- Nouvel onglet Rugby : Top 14, Pro D2, Premiership, tests… avec filtres par pays et championnat, comme les autres sports.\n- Les onglets de sport défilent horizontalement : les libellés restent lisibles sur téléphone et sur TV.\n- Appui long sur un match à venir (ou touche Menu de la télécommande) : rappel 15 minutes avant le coup d'envoi.\n- Dans la fiche d'un match, le bouton « Regarder en direct » se sélectionne à la télécommande.\n- Les matchs dont l'heure est passée mais que la source n'a pas mis à jour ne polluent plus « À venir » : ils rejoignent une section dédiée en fin de liste. Le message du rappel dit clairement quand le coup d'envoi est déjà passé.\n- La carte Sport de l'accueil passe avant « Continuer ».\n\nFire TV et Android TV\n- Fin des blocages sur l'écran Sport : ouverture, changement d'onglet et rafraîchissement des scores ne figent plus la télécommande.\n- Le bouton Retour ferme bien la fiche d'un match au lieu de quitter l'écran Sport.\n- Appuyer sur la télécommande pendant le chargement de l'accueil ne bloque plus l'app.\n\nAccueil et navigation\n- Rangées de l'accueil harmonisées : nouveautés, populaires et recommandations affichent le même nombre de titres.\n- Onglet « Tous » des films et séries : corrige la liste vide en mode direct.\n- Colonnes de grille : réglage automatique selon l'écran (3 sur téléphone, 4 ou 5 sur tablette, 6 sur TV et ordinateur), le réglage affiche la valeur réellement appliquée et permet jusqu'à 7 colonnes.\n\nCorrections\n- Bande-annonce : au retour de YouTube, l'app ne restait plus bloquée sur un cercle de chargement.\n- Windows : le logo Maya remplace l'icône générique du menu latéral.",
-          "downloadURL": "https://mayaiptv.com/dl/ios/v1.57.0?src=sidestore",
-          "size": 23590169,
           "minOSVersion": "15.0"
         }
       ],
