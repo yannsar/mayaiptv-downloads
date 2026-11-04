@@ -17,13 +17,21 @@
       "tintColor": "#7C6FF0",
       "category": "entertainment",
       "screenshots": [],
-      "version": "1.65.4",
-      "versionDate": "2026-10-30T19:41:30Z",
-      "versionDescription": "Correctifs de la recherche vocale\n\nmacOS\n- Appuyer sur le micro de la recherche ne fait plus planter l'application : macOS demande désormais l'accès au micro et à la reconnaissance vocale, puis la dictée remplit le champ.\n\nFire TV\n- La mise à jour Fire OS 8.1.8.5 d'Amazon a retiré la reconnaissance vocale pour les applications tierces. L'appui sur le micro affiche maintenant un message qui l'explique, au lieu de faire disparaître le bouton sans un mot.\n\nRecherche\n- La recherche IA retrouve un titre de votre catalogue même quand votre fournisseur l'écrit avec une ponctuation différente (apostrophe, tiret, espace).",
-      "downloadURL": "https://mayaiptv.com/dl/ios/v1.65.4?src=sidestore",
-      "size": 30527314,
+      "version": "1.65.5",
+      "versionDate": "2026-11-04T14:47:49Z",
+      "versionDescription": "Maya IPTV 1.65.5\n\nRecherche\n- Les films, séries et chaînes adultes n'apparaissent plus dans les résultats de recherche, classique comme intelligente, même lorsqu'un code parental est renseigné : ils restent accessibles depuis leur catégorie dans les onglets.\n- Les éléments d'une catégorie masquée dans « Catégories visibles » ne ressortent plus dans la recherche.\n\nContrôle parental\n- Stalker : un code parental différent de celui du portail ne vide plus les catégories de chaînes ; seules les chaînes censurées restent retenues.\n- Mode Direct (Xtream) : la liste « Tous » et la recherche ne laissent plus passer de film adulte quand le panel ne le signale pas lui-même.",
+      "downloadURL": "https://mayaiptv.com/dl/ios/v1.65.5?src=sidestore",
+      "size": 30533403,
       "minOSVersion": "15.0",
       "versions": [
+        {
+          "version": "1.65.5",
+          "date": "2026-11-04T14:47:49Z",
+          "localizedDescription": "Maya IPTV 1.65.5\n\nRecherche\n- Les films, séries et chaînes adultes n'apparaissent plus dans les résultats de recherche, classique comme intelligente, même lorsqu'un code parental est renseigné : ils restent accessibles depuis leur catégorie dans les onglets.\n- Les éléments d'une catégorie masquée dans « Catégories visibles » ne ressortent plus dans la recherche.\n\nContrôle parental\n- Stalker : un code parental différent de celui du portail ne vide plus les catégories de chaînes ; seules les chaînes censurées restent retenues.\n- Mode Direct (Xtream) : la liste « Tous » et la recherche ne laissent plus passer de film adulte quand le panel ne le signale pas lui-même.",
+          "downloadURL": "https://mayaiptv.com/dl/ios/v1.65.5?src=sidestore",
+          "size": 30533403,
+          "minOSVersion": "15.0"
+        },
         {
           "version": "1.65.4",
           "date": "2026-10-30T19:41:30Z",
@@ -94,14 +102,6 @@
           "localizedDescription": "MayaIPTV 1.61.0\n\n📋 Playlists M3U\n- Nouveau type de connexion « Playlist M3U », en tête du sélecteur : collez le lien de votre fichier .m3u ou .m3u8, c'est tout. Les chaînes en direct apparaissent groupées par catégorie, avec leurs logos et les compteurs.\n- Chaînes en direct uniquement pour l'instant (pas de films ni de séries, pas de guide des programmes sur ce type). Les entrées YouTube ou Dailymotion d'une playlist sont ignorées, aucun lecteur ne pouvant les lire.\n- Fonctionne sur toutes les plateformes, à la télécommande comme à la souris.\n\n🔌 Fournisseur injoignable : un message clair\n- Quand votre fournisseur ne répond pas ou met trop de temps, l'application le dit tel quel (« serveur injoignable », « délai dépassé ») au lieu d'un message d'erreur générique, et n'insiste plus inutilement.\n\n⚙️ Moins de requêtes, plus de fluidité\n- Les catégories masquées sont enregistrées en une fois quand vous avez fini de cocher, au lieu d'une sauvegarde par case : fini les erreurs « serveur occupé » pendant le tri.\n- La progression de lecture n'est plus envoyée en double après un changement de décodeur ou une reprise.",
           "downloadURL": "https://mayaiptv.com/dl/ios/v1.61.0?src=sidestore",
           "size": 23699358,
-          "minOSVersion": "15.0"
-        },
-        {
-          "version": "1.60.0",
-          "date": "2026-09-19T15:29:40Z",
-          "localizedDescription": "MayaIPTV 1.60.0\n\n📺 Android TV : rendu vidéo par le téléviseur (option)\n- Nouveau réglage « Rendu vidéo TV (SurfaceView) » : l'image est confiée au plan vidéo matériel du téléviseur, qui la désentrelace et la met à l'échelle comme le fait VLC. À activer si les chaînes 1080i (sport, infos) laissent des traînées sur les mouvements ou si l'image paraît moins nette qu'ailleurs.\n- Désactivé par défaut ; un volet noir couvre le lecteur jusqu'à la première image.\n\n🔊 Fire TV : le volume de la télécommande refonctionne dans l'application\n- Correction de la régression de la 1.59.0 : les touches Volume de la télécommande Fire TV agissaient partout sauf dans MayaIPTV.\n\n🎬 Lecteur\n- Les commandes se masquent à nouveau d'elles-mêmes après un démarrage lent.\n- Quand le fournisseur refuse un flux, le message dit pourquoi : limite d'écrans simultanés atteinte, ou jeton refusé. Plus de bascule inutile en « mode compatibilité ».\n- Comptes Stalker/MAG : le jeton de lecture est renouvelé avant chaque nouvelle tentative, sur macOS et Windows également.\n\n🔈 Audio mal étiqueté par le fournisseur (macOS, Windows)\n- Certaines chaînes annoncent un codec audio qui n'est pas celui du flux (Dolby annoncé, AAC livré) : l'image se figeait avec une erreur audio. Le lecteur réécrit le flux en local et lit le vrai codec.\n- Si le son de cette variante est inexploitable (livré par blocs de plusieurs dizaines de secondes), la vidéo joue sans son et un bandeau l'explique, au lieu d'un écran figé.\n\n🔐 Connexion plus robuste\n- Une réponse inattendue du serveur (maintenance, page d'erreur) ne déconnecte plus l'application : elle passe hors ligne et conserve votre session.",
-          "downloadURL": "https://mayaiptv.com/dl/ios/v1.60.0?src=sidestore",
-          "size": 23692362,
           "minOSVersion": "15.0"
         }
       ],
