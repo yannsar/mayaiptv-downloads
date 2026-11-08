@@ -20,6 +20,27 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "1.65.4",
+          "buildVersion": "8169",
+          "date": "2026-11-08T09:18:23Z",
+          "localizedDescription": "Correctifs de la recherche vocale\n\nmacOS\n- Appuyer sur le micro de la recherche ne fait plus planter l'application : macOS demande désormais l'accès au micro et à la reconnaissance vocale, puis la dictée remplit le champ.\n\nFire TV\n- La mise à jour Fire OS 8.1.8.5 d'Amazon a retiré la reconnaissance vocale pour les applications tierces. L'appui sur le micro affiche maintenant un message qui l'explique, au lieu de faire disparaître le bouton sans un mot.\n\nRecherche\n- La recherche IA retrouve un titre de votre catalogue même quand votre fournisseur l'écrit avec une ponctuation différente (apostrophe, tiret, espace).",
+          "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.65.4/manifest.json",
+          "assetURLs": {
+            "manifest": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.65.4/manifest.json",
+            "signature": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.65.4/signature",
+            "05fcd765-4420-3b0b-99be-15dd599cb36d": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.65.4/05fcd765-4420-3b0b-99be-15dd599cb36d.ipa",
+            "168fdace-9a7f-3a81-a6ac-2b5b7ddca73e": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.65.4/168fdace-9a7f-3a81-a6ac-2b5b7ddca73e.ipa",
+            "39379fad-2c0b-3206-ae72-4faf96ead3a3": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.65.4/39379fad-2c0b-3206-ae72-4faf96ead3a3.ipa",
+            "3d9a2cda-5417-35c3-a7fd-eea153ff9aa6": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.65.4/3d9a2cda-5417-35c3-a7fd-eea153ff9aa6.ipa",
+            "6d22c41b-0ff4-341e-8d82-c8dcb31ef8cb": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.65.4/6d22c41b-0ff4-341e-8d82-c8dcb31ef8cb.ipa",
+            "ad016f10-cee4-3176-95c7-14de1249be40": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.65.4/ad016f10-cee4-3176-95c7-14de1249be40.ipa",
+            "d0750ac7-1215-3147-8b23-725b3c3f0e22": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.65.4/d0750ac7-1215-3147-8b23-725b3c3f0e22.ipa",
+            "dafde5f7-d995-30b2-b5c9-39958ed8857a": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.65.4/dafde5f7-d995-30b2-b5c9-39958ed8857a.ipa"
+          },
+          "size": 28268750,
+          "minOSVersion": "17.4"
+        },
+        {
           "version": "1.63.0",
           "buildVersion": "8163",
           "date": "2026-10-05T18:47:50Z",
