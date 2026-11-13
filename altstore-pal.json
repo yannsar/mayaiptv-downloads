@@ -20,6 +20,27 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "1.65.6",
+          "buildVersion": "8171",
+          "date": "2026-11-13T20:53:58Z",
+          "localizedDescription": "Sous-titres - Un fichier OpenSubtitles remplace désormais vraiment la piste intégrée du flux : sur Freebox et d'autres boîtiers Android TV, la piste du fournisseur restait affichée à la place du fichier choisi. - Une seule réplique à la fois : quand les horodatages d'une piste se chevauchent (le résumé en début d'épisode chez certains fournisseurs), les répliques ne s'empilent plus à l'écran.\n\nCôté serveur (déjà en ligne, toutes versions)\n- Correction de la panne du 12 novembre pendant laquelle les catalogues ne se chargeaient plus, et une surveillance qui prévient désormais en cas d'indisponibilité.\n- Chargement plus fluide quand beaucoup de matchs sont en direct.\n- Stalker : un code parental refusé par le portail ne révèle plus les films et séries adultes.",
+          "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.65.6/manifest.json",
+          "assetURLs": {
+            "manifest": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.65.6/manifest.json",
+            "signature": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.65.6/signature",
+            "0a5361f8-adf6-3457-b674-1919737fb528": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.65.6/0a5361f8-adf6-3457-b674-1919737fb528.ipa",
+            "17c4d5ab-1f2d-3c9d-8cc3-dc35e28220d8": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.65.6/17c4d5ab-1f2d-3c9d-8cc3-dc35e28220d8.ipa",
+            "52b5b08e-efc4-3137-87c8-5641bda7249b": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.65.6/52b5b08e-efc4-3137-87c8-5641bda7249b.ipa",
+            "59b2efc8-f7c6-3a9c-be5c-202ee51964b0": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.65.6/59b2efc8-f7c6-3a9c-be5c-202ee51964b0.ipa",
+            "66bd5fed-14a4-3f7d-9af8-cb6402af5232": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.65.6/66bd5fed-14a4-3f7d-9af8-cb6402af5232.ipa",
+            "936cf2b5-c273-301c-9a2e-bef675f4f6ec": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.65.6/936cf2b5-c273-301c-9a2e-bef675f4f6ec.ipa",
+            "ade632b3-ec30-30ea-b961-fd35b763ba73": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.65.6/ade632b3-ec30-30ea-b961-fd35b763ba73.ipa",
+            "e66eb266-c9bd-3c00-8984-f7cd9a0d47f7": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.65.6/e66eb266-c9bd-3c00-8984-f7cd9a0d47f7.ipa"
+          },
+          "size": 28275798,
+          "minOSVersion": "17.4"
+        },
+        {
           "version": "1.65.5",
           "buildVersion": "8170",
           "date": "2026-11-13T15:07:28Z",
