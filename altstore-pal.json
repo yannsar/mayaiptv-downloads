@@ -20,6 +20,27 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "1.65.5",
+          "buildVersion": "8170",
+          "date": "2026-11-13T15:07:28Z",
+          "localizedDescription": "Maya IPTV 1.65.5\n\nRecherche\n- Les films, séries et chaînes adultes n'apparaissent plus dans les résultats de recherche, classique comme intelligente, même lorsqu'un code parental est renseigné : ils restent accessibles depuis leur catégorie dans les onglets.\n- Les éléments d'une catégorie masquée dans « Catégories visibles » ne ressortent plus dans la recherche.\n\nContrôle parental\n- Stalker : un code parental différent de celui du portail ne vide plus les catégories de chaînes ; seules les chaînes censurées restent retenues.\n- Mode Direct (Xtream) : la liste « Tous » et la recherche ne laissent plus passer de film adulte quand le panel ne le signale pas lui-même.",
+          "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.65.5/manifest.json",
+          "assetURLs": {
+            "manifest": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.65.5/manifest.json",
+            "signature": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.65.5/signature",
+            "004bd700-f638-3775-af9a-7674e1e43cfe": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.65.5/004bd700-f638-3775-af9a-7674e1e43cfe.ipa",
+            "1fb26611-c486-3f0c-ae0b-d0509da4ad90": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.65.5/1fb26611-c486-3f0c-ae0b-d0509da4ad90.ipa",
+            "238c5346-3dc7-3754-a3cf-a1d4b69fce8d": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.65.5/238c5346-3dc7-3754-a3cf-a1d4b69fce8d.ipa",
+            "320eefec-fc59-31eb-819a-acd2cd63e887": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.65.5/320eefec-fc59-31eb-819a-acd2cd63e887.ipa",
+            "7d31e44d-543f-32cd-bf5d-0b77c3da30e0": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.65.5/7d31e44d-543f-32cd-bf5d-0b77c3da30e0.ipa",
+            "9c28bc3e-8de5-308b-a707-1f482e6509c9": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.65.5/9c28bc3e-8de5-308b-a707-1f482e6509c9.ipa",
+            "e49ae0c0-0635-393f-ae94-c2ee6a7efc58": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.65.5/e49ae0c0-0635-393f-ae94-c2ee6a7efc58.ipa",
+            "f54d70d1-731d-3b6c-967e-0de60fea4ac8": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.65.5/f54d70d1-731d-3b6c-967e-0de60fea4ac8.ipa"
+          },
+          "size": 28275669,
+          "minOSVersion": "17.4"
+        },
+        {
           "version": "1.65.4",
           "buildVersion": "8169",
           "date": "2026-11-08T09:18:23Z",
