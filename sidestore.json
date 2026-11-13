@@ -17,13 +17,21 @@
       "tintColor": "#7C6FF0",
       "category": "entertainment",
       "screenshots": [],
-      "version": "1.65.5",
-      "versionDate": "2026-11-04T14:47:49Z",
-      "versionDescription": "Maya IPTV 1.65.5\n\nRecherche\n- Les films, séries et chaînes adultes n'apparaissent plus dans les résultats de recherche, classique comme intelligente, même lorsqu'un code parental est renseigné : ils restent accessibles depuis leur catégorie dans les onglets.\n- Les éléments d'une catégorie masquée dans « Catégories visibles » ne ressortent plus dans la recherche.\n\nContrôle parental\n- Stalker : un code parental différent de celui du portail ne vide plus les catégories de chaînes ; seules les chaînes censurées restent retenues.\n- Mode Direct (Xtream) : la liste « Tous » et la recherche ne laissent plus passer de film adulte quand le panel ne le signale pas lui-même.",
-      "downloadURL": "https://mayaiptv.com/dl/ios/v1.65.5?src=sidestore",
-      "size": 30533403,
+      "version": "1.65.6",
+      "versionDate": "2026-11-13T14:24:53Z",
+      "versionDescription": "Sous-titres - Un fichier OpenSubtitles remplace désormais vraiment la piste intégrée du flux : sur Freebox et d'autres boîtiers Android TV, la piste du fournisseur restait affichée à la place du fichier choisi. - Une seule réplique à la fois : quand les horodatages d'une piste se chevauchent (le résumé en début d'épisode chez certains fournisseurs), les répliques ne s'empilent plus à l'écran.\n\nCôté serveur (déjà en ligne, toutes versions)\n- Correction de la panne du 12 novembre pendant laquelle les catalogues ne se chargeaient plus, et une surveillance qui prévient désormais en cas d'indisponibilité.\n- Chargement plus fluide quand beaucoup de matchs sont en direct.\n- Stalker : un code parental refusé par le portail ne révèle plus les films et séries adultes.",
+      "downloadURL": "https://mayaiptv.com/dl/ios/v1.65.6?src=sidestore",
+      "size": 30533405,
       "minOSVersion": "15.0",
       "versions": [
+        {
+          "version": "1.65.6",
+          "date": "2026-11-13T14:24:53Z",
+          "localizedDescription": "Sous-titres - Un fichier OpenSubtitles remplace désormais vraiment la piste intégrée du flux : sur Freebox et d'autres boîtiers Android TV, la piste du fournisseur restait affichée à la place du fichier choisi. - Une seule réplique à la fois : quand les horodatages d'une piste se chevauchent (le résumé en début d'épisode chez certains fournisseurs), les répliques ne s'empilent plus à l'écran.\n\nCôté serveur (déjà en ligne, toutes versions)\n- Correction de la panne du 12 novembre pendant laquelle les catalogues ne se chargeaient plus, et une surveillance qui prévient désormais en cas d'indisponibilité.\n- Chargement plus fluide quand beaucoup de matchs sont en direct.\n- Stalker : un code parental refusé par le portail ne révèle plus les films et séries adultes.",
+          "downloadURL": "https://mayaiptv.com/dl/ios/v1.65.6?src=sidestore",
+          "size": 30533405,
+          "minOSVersion": "15.0"
+        },
         {
           "version": "1.65.5",
           "date": "2026-11-04T14:47:49Z",
@@ -94,14 +102,6 @@
           "localizedDescription": "MayaIPTV 1.62.0\n\n🍎 iPhone 17 et iOS 27 : l'application se lance à nouveau\n- Sur iOS 27, l'application s'installait mais ne s'ouvrait pas : Apple impose désormais un nouveau cycle de vie aux applications compilées avec ses derniers outils. C'est corrigé, pour AltStore PAL comme pour SideStore. Rien ne change sur iOS 26 et avant.\n\n🎬 Films dans les playlists M3U\n- Les fichiers vidéo d'une playlist (.mp4, .mkv, .avi…) apparaissent dans l'onglet Films, classés par catégorie, avec fiche, reprise de lecture et « Continuer ». Les chaînes restent dans Live. Une playlist n'a pas de séries ni de guide des programmes pour l'instant.\n- Un lien de playlist mort est signalé comme tel au lieu d'un « connexion impossible ».\n\n🛡️ Démarrage plus robuste\n- Sur macOS, un trousseau qui refuse de livrer la session ne fait plus planter l'application au lancement : elle propose simplement de se reconnecter.\n- L'écran d'accueil mentionne les playlists M3U parmi les types de connexion.",
           "downloadURL": "https://mayaiptv.com/dl/ios/v1.62.0?src=sidestore",
           "size": 23704481,
-          "minOSVersion": "15.0"
-        },
-        {
-          "version": "1.61.0",
-          "date": "2026-09-20T11:49:50Z",
-          "localizedDescription": "MayaIPTV 1.61.0\n\n📋 Playlists M3U\n- Nouveau type de connexion « Playlist M3U », en tête du sélecteur : collez le lien de votre fichier .m3u ou .m3u8, c'est tout. Les chaînes en direct apparaissent groupées par catégorie, avec leurs logos et les compteurs.\n- Chaînes en direct uniquement pour l'instant (pas de films ni de séries, pas de guide des programmes sur ce type). Les entrées YouTube ou Dailymotion d'une playlist sont ignorées, aucun lecteur ne pouvant les lire.\n- Fonctionne sur toutes les plateformes, à la télécommande comme à la souris.\n\n🔌 Fournisseur injoignable : un message clair\n- Quand votre fournisseur ne répond pas ou met trop de temps, l'application le dit tel quel (« serveur injoignable », « délai dépassé ») au lieu d'un message d'erreur générique, et n'insiste plus inutilement.\n\n⚙️ Moins de requêtes, plus de fluidité\n- Les catégories masquées sont enregistrées en une fois quand vous avez fini de cocher, au lieu d'une sauvegarde par case : fini les erreurs « serveur occupé » pendant le tri.\n- La progression de lecture n'est plus envoyée en double après un changement de décodeur ou une reprise.",
-          "downloadURL": "https://mayaiptv.com/dl/ios/v1.61.0?src=sidestore",
-          "size": 23699358,
           "minOSVersion": "15.0"
         }
       ],
