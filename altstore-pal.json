@@ -22,7 +22,7 @@
         {
           "version": "1.66.0",
           "buildVersion": "8172",
-          "date": "2026-11-17T02:26:37Z",
+          "date": "2026-11-17T03:40:31Z",
           "localizedDescription": "Nouveautés\n- Nouvelle animation au démarrage.\n\nCôté serveur (toutes versions)\n- Le compte sait désormais s'il a soutenu le projet.",
           "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.66.0/manifest.json",
           "assetURLs": {
