@@ -20,6 +20,27 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "1.67.0",
+          "buildVersion": "8173",
+          "date": "2026-11-21T18:57:47Z",
+          "localizedDescription": "Nouveautés - Les annonces de l'équipe s'affichent dans l'app : information, alerte ou maintenance planifiée, avec l'horaire dans votre fuseau. Pendant une maintenance, l'app vous indique l'heure de retour prévue au lieu d'une simple erreur de connexion.\n\nCôté serveur (déjà en ligne pour toutes les versions)\n- Plus de stabilité quand un fournisseur ne répond pas : un seul abonnement en panne ne peut plus ralentir les autres utilisateurs, et les erreurs s'affichent tout de suite au lieu d'attendre une minute.\n- Les identifiants de vos abonnements ne sont plus écrits dans les journaux du serveur.\n- Mises à jour de sécurité des composants serveur.",
+          "downloadURL": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.67.0/manifest.json",
+          "assetURLs": {
+            "manifest": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.67.0/manifest.json",
+            "signature": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.67.0/signature",
+            "2e6f7bed-565c-3ff2-ae41-73603665df59": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.67.0/2e6f7bed-565c-3ff2-ae41-73603665df59.ipa",
+            "4425d49c-5f9a-3e5e-880a-e3e45e5646cd": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.67.0/4425d49c-5f9a-3e5e-880a-e3e45e5646cd.ipa",
+            "6e5b0f2b-da8c-3461-ba4f-f005182a8853": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.67.0/6e5b0f2b-da8c-3461-ba4f-f005182a8853.ipa",
+            "81d692bb-6d88-320d-83e7-7d078767bba7": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.67.0/81d692bb-6d88-320d-83e7-7d078767bba7.ipa",
+            "9c336421-6f61-3958-8301-5b50bb61850c": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.67.0/9c336421-6f61-3958-8301-5b50bb61850c.ipa",
+            "a8507bb0-4d75-3288-8259-e802bde06676": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.67.0/a8507bb0-4d75-3288-8259-e802bde06676.ipa",
+            "cb5b82ad-b8fa-36d0-a17e-a8b476220fcb": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.67.0/cb5b82ad-b8fa-36d0-a17e-a8b476220fcb.ipa",
+            "e2d381b6-3992-37d1-8926-65f5c9aaec2a": "https://github.com/yannsar/mayaiptv-downloads/releases/download/v1.67.0/e2d381b6-3992-37d1-8926-65f5c9aaec2a.ipa"
+          },
+          "size": 28318792,
+          "minOSVersion": "17.4"
+        },
+        {
           "version": "1.66.0",
           "buildVersion": "8172",
           "date": "2026-11-17T03:40:31Z",
