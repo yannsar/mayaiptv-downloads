@@ -17,13 +17,21 @@
       "tintColor": "#7C6FF0",
       "category": "entertainment",
       "screenshots": [],
-      "version": "1.66.0",
-      "versionDate": "2026-11-15T13:24:38Z",
-      "versionDescription": "Nouveautés\n- Nouvelle animation au démarrage.\n\nCôté serveur (toutes versions)\n- Le compte sait désormais s'il a soutenu le projet.",
-      "downloadURL": "https://mayaiptv.com/dl/ios/v1.66.0?src=sidestore",
-      "size": 30564068,
+      "version": "1.67.0",
+      "versionDate": "2026-11-21T00:41:37Z",
+      "versionDescription": "Nouveautés - Les annonces de l'équipe s'affichent dans l'app : information, alerte ou maintenance planifiée, avec l'horaire dans votre fuseau. Pendant une maintenance, l'app vous indique l'heure de retour prévue au lieu d'une simple erreur de connexion.\n\nCôté serveur (déjà en ligne pour toutes les versions)\n- Plus de stabilité quand un fournisseur ne répond pas : un seul abonnement en panne ne peut plus ralentir les autres utilisateurs, et les erreurs s'affichent tout de suite au lieu d'attendre une minute.\n- Les identifiants de vos abonnements ne sont plus écrits dans les journaux du serveur.\n- Mises à jour de sécurité des composants serveur.",
+      "downloadURL": "https://mayaiptv.com/dl/ios/v1.67.0?src=sidestore",
+      "size": 30574888,
       "minOSVersion": "15.0",
       "versions": [
+        {
+          "version": "1.67.0",
+          "date": "2026-11-21T00:41:37Z",
+          "localizedDescription": "Nouveautés - Les annonces de l'équipe s'affichent dans l'app : information, alerte ou maintenance planifiée, avec l'horaire dans votre fuseau. Pendant une maintenance, l'app vous indique l'heure de retour prévue au lieu d'une simple erreur de connexion.\n\nCôté serveur (déjà en ligne pour toutes les versions)\n- Plus de stabilité quand un fournisseur ne répond pas : un seul abonnement en panne ne peut plus ralentir les autres utilisateurs, et les erreurs s'affichent tout de suite au lieu d'attendre une minute.\n- Les identifiants de vos abonnements ne sont plus écrits dans les journaux du serveur.\n- Mises à jour de sécurité des composants serveur.",
+          "downloadURL": "https://mayaiptv.com/dl/ios/v1.67.0?src=sidestore",
+          "size": 30574888,
+          "minOSVersion": "15.0"
+        },
         {
           "version": "1.66.0",
           "date": "2026-11-15T13:24:38Z",
@@ -94,14 +102,6 @@
           "localizedDescription": "Recherche - La recherche vocale lance la recherche intelligente sur la phrase complète dictée. Jusqu'ici elle partait sur un début de phrase tronqué et ne trouvait rien, alors que la même recherche tapée fonctionnait. - Quand aucune correspondance n'est trouvée, le message indique la requête réellement cherchée.\n\nCatégories\n- Un filtre texte sur l'écran des catégories visibles, commun aux onglets Direct, Films et Séries : tapez « FR » pour ne voir que les catégories concernées. « Tout » et « Aucun » n'agissent que sur les catégories filtrées.",
           "downloadURL": "https://mayaiptv.com/dl/ios/v1.64.0?src=sidestore",
           "size": 23711418,
-          "minOSVersion": "15.0"
-        },
-        {
-          "version": "1.63.0",
-          "date": "2026-09-28T20:30:55Z",
-          "localizedDescription": "Sous-titres OpenSubtitles sans configuration - La recherche de sous-titres fonctionne dès l'installation : l'application embarque désormais sa propre clé OpenSubtitles. Plus besoin de créer une clé API sur opensubtitles.com. - Un compte OpenSubtitles reste possible, en option, pour un quota de téléchargements plus élevé.\n\nFavoris\n- Quand une chaîne est lancée depuis les favoris, la liste de zapping du lecteur affiche les favoris, et non toutes les chaînes, et le reste après chaque changement de chaîne.\n- Les logos des chaînes favorites s'affichent en entier.\n\niOS\n- La mise à jour proposée dans l'application renvoie vers AltStore PAL ou SideStore selon la source d'installation.",
-          "downloadURL": "https://mayaiptv.com/dl/ios/v1.63.0?src=sidestore",
-          "size": 23707417,
           "minOSVersion": "15.0"
         }
       ],
